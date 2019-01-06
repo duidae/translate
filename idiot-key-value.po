@@ -1,0 +1,5481 @@
+msgid "gui options"
+msgstr "GUI選項"
+
+msgid "width of the side panels in pixels"
+msgstr "邊欄寬度(像素)"
+
+msgid "double click to reset to `%d'"
+msgstr "雙擊以重置到 `%d'"
+
+msgid "(needs a restart)"
+msgstr "(重啟生效)"
+
+msgid "don't use embedded preview jpeg but half-size raw"
+msgstr "使用一半尺寸的raw檔案, 而忽略內嵌的預覽jpeg"
+
+msgid "double click to reset to `%s'"
+msgstr "雙擊以重置到 `%s'"
+
+msgid ""
+"check this option to not use the embedded jpeg from the raw file but process "
+"the raw data. this is slower but gives you color managed thumbnails."
+msgstr ""
+"勾選此項將不會使用raw檔案中內嵌的jpeg, 而是處理raw數據較慢, 但會生成色彩更精"
+"確的縮圖."
+
+msgid "ask before removing images from database"
+msgstr "從資料庫移除影像前詢問"
+
+msgid "always ask the user before any image is removed from db."
+msgstr "從資料庫移除任何影像前詢問."
+
+msgid "ask before erasing images from disk"
+msgstr "在磁碟中刪除影像前詢問"
+
+msgid "always ask the user before any image file is deleted."
+msgstr "在磁碟中刪除任何影像前詢問使用者."
+
+msgid "ask before moving images from film roll folder"
+msgstr "從膠捲目錄中移除影像前詢問"
+
+msgid "always ask the user before any image file is moved."
+msgstr "移動任何影像前詢問使用者."
+
+msgid "ask before copying images to new film roll folder"
+msgstr "複製影像到新的膠捲目錄前詢問"
+
+msgid "always ask the user before any image file is copied."
+msgstr "複製任何影像前詢問使用者."
+
+msgid "number of folder levels to show in lists"
+msgstr "列表中要顯示的目錄級別"
+
+msgid ""
+"the number of folder levels to show in film roll names, starting from the "
+"right"
+msgstr "指定膠捲名稱中要顯示的目錄層數, 從右邊開始"
+
+msgid "ignore jpeg images when importing film rolls"
+msgstr "匯入膠捲時忽略jpeg影像"
+
+msgid ""
+"when having raw+jpeg images together in one directory it makes no sense to "
+"import both. with this flag one can ignore all jpegs found."
+msgstr ""
+"在目錄中影像同時具備raw和jpeg格式時同時匯入是沒有意義的. 使用此標誌, 可以忽略"
+"發現的所有jpeg檔案."
+
+msgid "recursive directory traversal when importing filmrolls"
+msgstr "遞迴匯入目錄所有內容至膠捲中"
+
+msgid "creator to be applied when importing"
+msgstr "匯入影像時應用的作者"
+
+msgid "publisher to be applied when importing"
+msgstr "匯入影像時應用的發行者"
+
+msgid "rights to be applied when importing"
+msgstr "匯入影像時應用的授權協議"
+
+msgid "comma separated tags to be applied when importing"
+msgstr "匯入影像時應用的標籤(逗號分隔)"
+
+msgid "initial import rating"
+msgstr "初始匯入評級"
+
+msgid "initial star rating for all images when importing a filmroll"
+msgstr "匯入一個膠捲時對所有影像的初始星級評定"
+
+msgid "enable filmstrip"
+msgstr "啟用幻燈片"
+
+msgid "enable the filmstrip in darkroom and tethering modes."
+msgstr "在暗房和連機模式中啟用幻燈片."
+
+msgid "maximum width of image drawing area"
+msgstr "繪製影像時最大寬度"
+
+msgid ""
+"maximum width of the image drawing area in darkroom mode. adjust to your "
+"screen\n"
+"(needs a restart and will invalidate current thumbnail caches)."
+msgstr ""
+"在暗房模式下影像繪製區域的最大寬度, 以適應您的螢幕\n"
+"(需要重啟生效並且會清空當前縮圖快取)"
+
+msgid "maximum height of image drawing area"
+msgstr "繪製影像時最大高度"
+
+msgid ""
+"maximum height of the image drawing area in dakroom mode. adjust to your "
+"screen\n"
+"(needs a restart and will invalidate current thumbnail caches)."
+msgstr ""
+"在暗房模式下影像繪製區域的最大高度, 以適應您的螢幕\n"
+"(需要重啟生效並且會清空當前縮圖快取)"
+
+msgid "compression of thumbnail images"
+msgstr "縮圖壓縮比"
+
+msgid ""
+"off - no compression in memory, jpg on disk. low quality - dxt1 (fast). high "
+"quality - dxt1, same memory as low quality variant but slower."
+msgstr ""
+"關 - 記憶體中不壓縮, jpg檔案由磁碟直讀. 低品質 - dxt1 (快) . 高品質 - dxt1, "
+"與低品質使用同樣的記憶體, 但更慢."
+
+msgid "ask before deleting a tag"
+msgstr "刪除標籤前詢問"
+
+msgid "maximum number of images drawn on map"
+msgstr "在地圖上繪製影像的最大數量"
+
+msgid ""
+"the maximum number of geotagged images drawn on the map. increasing this "
+"number can slow drawing of the map down (needs a restart)."
+msgstr ""
+"在地圖上繪製擁有地理標誌的影像的最大數量. 增加該值會降低地圖繪製的速度.(需要"
+"重新啟動)"
+
+msgid "pretty print the image location"
+msgstr "高品質列印影像的位置"
+
+msgid ""
+"show a more readable representation of the location in the image information "
+"module"
+msgstr "在影像的訊息模組中顯示更具可讀性的位置標示"
+
+msgid "core options"
+msgstr "核心選項"
+
+msgid "memory in megabytes to use for mipmap cache"
+msgstr "mipmap 快取所用記憶體大小(MB)"
+
+msgid "double click to reset to `%<PRId64>'"
+msgstr "雙擊以重置到 `%<PRId64>'"
+
+msgid "number of background threads"
+msgstr "後台執行緒數量"
+
+msgid ""
+"this controls for example how many threads are used to create thumbnails "
+"during import. the cache will grow to a maximum of twice this number of full "
+"resolution image buffers (needs a restart)."
+msgstr ""
+"此項控制後台匯入使用創造縮圖需要的執行緒數量, 快取會漲到最高2倍于這個全解析度"
+"圖片的數量(需要重新啟動)"
+
+msgid "host memory limit (in MB) for tiling"
+msgstr "用於平鋪的主機記憶體限制 (MB)"
+
+msgid ""
+"this variable controls the maximum amount of memory (in MB) a module may use "
+"during image processing. lower values will force memory hungry modules to "
+"process image with increasing number of tiles. setting this to 0 will omit "
+"any limit. values below 500 will be treated as 500 (needs a restart)."
+msgstr ""
+"此變數控制模組在影像處理過程中可能使用的最大記憶體量 (ＭＢ).較低的值將強制記"
+"使用大量記憶體的模組盡量使用多個區塊平鋪.將其設置為0將去除任何限制.設定值低於"
+"500將被視為 500 (需要重新開機)."
+
+msgid "minimum amount of memory (in MB) for a single buffer in tiling"
+msgstr "平鋪中單個緩衝區的最小記憶體量 (ＭＢ)"
+
+msgid ""
+"if set to a positive, non-zero value this variable defines the minimum "
+"amount of memory (in MB) that tiling should take for a single image buffer. "
+"has precedence over heuristics based on host_memory_limit (needs a restart)."
+msgstr ""
+"如果設置為正值非零值, 則此變數定義為單個影像緩衝區平鋪應採用的最小記憶體量 "
+"(mb).此設定值較 host_memory_limit 優先 (需要重新開機) ."
+
+msgid "write sidecar file for each image"
+msgstr "為每個圖片寫入附屬檔案"
+
+msgid ""
+"these redundant files can later be re-imported into a different database, "
+"preserving your changes to the image."
+msgstr "這些冗餘檔案以後可重新匯入進其他資料庫, 並保留您對影像的更改."
+
+msgid "activate opencl support"
+msgstr "啟用 opencl"
+
+msgid ""
+"if found, use opencl runtime on your system for improved processing speed. "
+"can be switched on and off at any time."
+msgstr ""
+"如果存在, 將在您系統中使用 opencl 以提高處理速度. 此功能可隨時開啟或關閉."
+
+msgid "not available on this system"
+msgstr "當前系統中不可用"
+
+msgid "always try to use littlecms2"
+msgstr "永遠嘗試使用 littlecms2"
+
+msgid "this is significantly slower as the default."
+msgstr "這會比預設值慢很多."
+
+msgid "do high quality resampling during export"
+msgstr "在匯出時進行高品質重新採樣"
+
+msgid ""
+"the image will first be processed in full resolution, and downscaled at the "
+"very end. this can result in better quality sometimes, but will always be "
+"slower."
+msgstr ""
+"首先在全解析度下處理影像, 最後再縮小. 有時能得到更高的品質, 但速度會更慢."
+
+msgid "dithering for darkroom mode"
+msgstr "暗房模式的抖動"
+
+msgid ""
+"center view will be dithered if this option is on and module dithering is "
+"activated (default for new images). switch this to off if you can accept "
+"display banding and prefer to have a slightly faster processing speed."
+msgstr ""
+"如果此選項處於打開狀態, 並且啟動了模組抖動, 則將抖動中心檢視(新影像的預設值)."
+"如果您可以接受顯示疊紋的小瑕疵並希望處理速度稍快, 請將其切換為關閉."
+
+msgid "demosaicing for zoomed out darkroom mode"
+msgstr "為暗房模式下放大的影像去馬賽克"
+
+msgid ""
+"interpolation when not viewing 1:1 in darkroom mode: bilinear is fastest, "
+"but not as sharp. middle ground is using ppg + interpolation modes specified "
+"below, full will use exactly the settings for full-size export."
+msgstr ""
+"在不是1:1 暗房模式下時的插值: 雙線性是最快的, 但較不銳利. 中間地帶使用下面指"
+"定的 ppg + 插值模式, 全滿的設置為全尺寸匯出."
+
+msgid "pixel interpolator"
+msgstr "像素內插器"
+
+msgid ""
+"pixel interpolator used in rotation and lens correction (bilinear, bicubic, "
+"lanczos2, lanczos3)."
+msgstr ""
+"用於轉動和鏡頭校正的像素內插器 (bilinear, bicubic, lanczos2, lanczos3)."
+
+msgid "password storage backend to use"
+msgstr "保存密碼所用後端服務"
+
+msgid "the storage backend for password storage: none, kwallet, gnome keyring"
+msgstr "用於保存密碼的後端服務: none, kwallet, gnome keyring"
+
+msgid "TODO: sorry, due to api restrictions we currently cannot set the bpp to"
+msgstr "TODO: 很抱歉, 由於api的限制, 我們目前還沒有設置bbp"
+
+msgid "Unknown option for --hq"
+msgstr "未知選項 --hq"
+
+msgid "output file already exists, it will get renamed"
+msgstr "輸出檔案已經存在,它將會被重命名"
+
+msgid "error: can't open file %s"
+msgstr "錯誤: 無法打開檔案 %s"
+
+msgid "empty history stack"
+msgstr "清空歷史記錄"
+
+msgid ""
+"cannot find disk storage module. please check your installation, something "
+"seems to be broken."
+msgstr "無法找到磁碟儲存模組.請檢查您的安裝是否有誤, 有些部分似乎損壞了."
+
+msgid "failed to get parameters from storage module, aborting export ..."
+msgstr "由儲存模組獲取參數失敗, 匯出中斷..."
+
+msgid "unknown extension '.%s'"
+msgstr "未知副檔名 '.%s'"
+
+msgid "failed to get parameters from format module, aborting export ..."
+msgstr "從格式模組獲取參數失敗, 匯出中斷..."
+
+msgid "red"
+msgstr "紅"
+
+msgid "yellow"
+msgstr "黃"
+
+msgid "green"
+msgstr "綠"
+
+msgid "blue"
+msgstr "藍"
+
+msgid "purple"
+msgstr "紫"
+
+msgid "altered"
+msgstr "已改變"
+
+msgid "%d image of %d in current collection is selected"
+msgid_plural "%d images of %d in current collection are selected"
+msgstr[0] "已選 %d 張影像, 當前集合共 %d 張影像"
+
+msgid "found strange path `%s'"
+msgstr "發現奇怪的路徑 `%s'"
+
+msgid "error loading directory `%s'"
+msgstr "載入目錄錯誤 `%s' "
+
+msgid "file `%s' has unknown format!"
+msgstr "檔案 `%s' 使用了未知格式!"
+
+msgid "error loading file `%s'"
+msgstr "載入檔案錯誤 `%s'"
+
+msgid "ERROR : invalid temporary directory : %s\n"
+msgstr "錯誤: 無效的臨時目錄:  %s\n"
+
+msgid "no supported images were found to be imported"
+msgstr "沒有發現可匯入的影像檔案"
+
+msgid "importing %d image"
+msgid_plural "importing %d images"
+msgstr[0] "匯入 %d 張影像"
+
+msgid "you need to copy history from an image before you paste it onto another"
+msgstr "你需要複製一張圖片的歷史, 然後才能用在另一張上"
+
+msgid "on"
+msgstr "開"
+
+msgid "off"
+msgstr "關"
+
+msgid "orphaned image"
+msgstr "孤立影像"
+
+msgid ""
+"failed to allocate memory for export, please lower the threads used for "
+"export or buy more memory."
+msgstr ""
+"為影像匯出分配記憶體失敗, 請減少用於匯出的執行緒數, 或者擴充您的記憶體."
+
+msgid "image `%s' is not available!"
+msgstr "影像 `%s' 無法獲取!"
+
+msgid "none"
+msgstr "沒有"
+
+msgid "cannot find the style '%s' to apply during export."
+msgstr "無法找到並應用樣式 '%s' 用於匯出."
+
+msgid "generic poissonian"
+msgstr "一般泊松分佈"
+
+msgid "rejecting %d image"
+msgid_plural "rejecting %d images"
+msgstr[0] "拒絕 %d 影像"
+
+msgid "applying rating %d to %d image"
+msgid_plural "applying rating %d to %d images"
+msgstr[0] "應用評級 %d 到 %d 張影像"
+
+msgid "no images selected to apply rating"
+msgstr "沒有選中任何圖片可用以評級"
+
+msgid "style with name '%s' already exists"
+msgstr "名為 '%s' 的樣式已經存在"
+
+msgid "style named '%s' successfully created"
+msgstr "樣式 '%s' 建立成功"
+
+msgid "no image selected!"
+msgstr "沒有選中圖片!"
+
+msgid "failed to overwrite style file for %s"
+msgstr "覆蓋 %s 的樣式檔案失敗"
+
+msgid "style file for %s exists"
+msgstr "%s 的樣式檔案已存在"
+
+msgid "style %s was successfully imported"
+msgstr "樣式 %s 已成功匯入"
+
+msgid "working.."
+msgstr "工作中.."
+
+msgid "switch to %s mode"
+msgstr "切換到 %s 模式"
+
+msgid "importing image %s"
+msgstr "正在匯入影像 %s"
+
+msgid "capturing %d image"
+msgid_plural "capturing %d images"
+msgstr[0] "捕獲 %d 張影像"
+
+msgid "please set your camera to manual mode first!"
+msgstr "請首先將您的相機設置為手動模式!"
+
+msgid "%d/%d imported to %s"
+msgstr "%d/%d 被匯入至 %s"
+
+msgid ""
+"Couldn't expand to a uniq filename for import, please check your import "
+"settings."
+msgstr "匯入檔案無法擴展為指定的檔案名稱, 請檢查您的匯入設置."
+
+msgid "starting to import images from camera"
+msgstr "開始從相機匯入影像"
+
+msgid "failed to create import path `%s', import aborted."
+msgstr "建立匯入路徑 `%s'失敗, 匯入中斷."
+
+msgid "importing %d image from camera"
+msgid_plural "importing %d images from camera"
+msgstr[0] "從相機匯入 %d 張影像"
+
+msgid "failed to create filmroll for camera import, import aborted."
+msgstr "為相機匯入建立膠捲失敗, 匯入中斷."
+
+msgid "merging %d image"
+msgid_plural "merging %d images"
+msgstr[0] "合併 %d 張影像"
+
+msgid "exposure bracketing only works on raw images"
+msgstr "包圍曝光只能用於RAW影像"
+
+msgid "failed to get raw buffer from image `%s'"
+msgstr "無法從影像取得RAW buffer  `%s'"
+
+msgid "images have to be of same size!"
+msgstr "影像尺寸必須相同!"
+
+msgid "wrote merged hdr `%s'"
+msgstr "合併 hdr 寫入 `%s'"
+
+msgid "duplicating %d image"
+msgid_plural "duplicating %d images"
+msgstr[0] "複製 %d 張影像"
+
+msgid "flipping %d image"
+msgid_plural "flipping %d images"
+msgstr[0] "翻轉 %d 張影像"
+
+msgid "removing %d image"
+msgid_plural "removing %d images"
+msgstr[0] "移除 %d 張影像"
+
+msgid "deleting %d image"
+msgid_plural "deleting %d images"
+msgstr[0] "刪除 %d 張影像"
+
+msgid "failed to parse gpx file"
+msgstr "無法解析gpx檔案"
+
+msgid "applied matched gpx location onto %d image(s)"
+msgstr "應用匹配的gpx位置到 %d 張影像"
+
+msgid "do you really want to remove %d selected image from the collection?"
+msgid_plural ""
+"do you really want to remove %d selected images from the collection?"
+msgstr[0] "你確定要從當前集合中移除 %d 張已選影像嗎?"
+
+msgid "remove images?"
+msgstr "移除影像?"
+
+msgid "do you really want to physically delete %d selected image from disk?"
+msgid_plural ""
+"do you really want to physically delete %d selected images from disk?"
+msgstr[0] "你確定要從磁碟物理刪除 %d 張已選影像嗎?"
+
+msgid "delete images?"
+msgstr "刪除影像?"
+
+msgid "failed to create film roll for destination directory, aborting move.."
+msgstr "目標目錄建立膠捲失敗, 移動中斷."
+
+msgid "select directory"
+msgstr "選擇目錄"
+
+msgid ""
+"do you really want to physically move the %d selected image to %s?\n"
+"(all unselected duplicates will be moved along)"
+msgid_plural ""
+"do you really want to physically move %d selected images to %s?\n"
+"(all unselected duplicates will be moved along)"
+msgstr[0] ""
+"你確定要從硬碟移動 %d 張已選影像至 %s 嗎?\n"
+"(所有未選擇的重複影像將單獨移動)"
+
+msgid "move image?"
+msgid_plural "move images?"
+msgstr[0] "移動影像?"
+
+msgid "do you really want to physically copy the %d selected image to %s?"
+msgid_plural "do you really want to physically copy %d selected images to %s?"
+msgstr[0] "你確定要複製 %d 張已選影像至 %s 嗎?"
+
+msgid "copy image?"
+msgid_plural "copy images?"
+msgstr[0] "複製影像?"
+
+msgid "moving %d image"
+msgstr "移動 %d 張影像"
+
+msgid "moving %d images"
+msgstr "移動 %d 張影像"
+
+msgid "copying %d image"
+msgstr "複製 %d 張影像"
+
+msgid "copying %d images"
+msgstr "複製 %d 張影像"
+
+msgid "failed to get parameters from storage module `%s', aborting export.."
+msgstr "從儲存模組 `%s' 獲取參數失敗, 匯出中斷.."
+
+msgid "exporting %d image.."
+msgid_plural "exporting %d images.."
+msgstr[0] "匯出 %d 張影像.."
+
+msgid "exporting %d image to %s"
+msgid_plural "exporting %d images to %s"
+msgstr[0] "匯出 %d 張影像到 %s"
+
+msgid "image `%s' is currently unavailable"
+msgstr "影像 `%s' 無法獲取"
+
+msgid "adding time offset to %d image"
+msgid_plural "adding time offset to %d images"
+msgstr[0] "向 %d 張影像添加時間偏移"
+
+msgid "added time offset to %d image(s)"
+msgstr "向 %d 張影像添加時間偏移"
+
+msgid "sliders for L channel"
+msgstr "L通道滑塊"
+
+msgid "sliders for a channel"
+msgstr "a通道滑塊"
+
+msgid "sliders for b channel"
+msgstr "b通道滑塊"
+
+msgid "sliders for chroma channel (of LCh)"
+msgstr "色度通道滑塊(LCh)"
+
+msgid "sliders for hue channel (of LCh)"
+msgstr "色調通道滑塊(LCh)"
+
+msgid " g "
+msgstr " g "
+
+msgid " R "
+msgstr " R "
+
+msgid " G "
+msgstr " G "
+
+msgid " B "
+msgstr " B "
+
+msgid " H "
+msgstr " H "
+
+msgid " S "
+msgstr " S "
+
+msgid " L "
+msgstr " L "
+
+msgid "sliders for gray value"
+msgstr "灰度值滑塊"
+
+msgid "sliders for red channel"
+msgstr "紅色通道滑塊"
+
+msgid "sliders for green channel"
+msgstr "綠色通道滑塊"
+
+msgid "sliders for blue channel"
+msgstr "藍色通道滑塊"
+
+msgid "sliders for hue channel (of HSL)"
+msgstr "色調通道滑塊(HSL)"
+
+msgid "sliders for chroma channel (of HSL)"
+msgstr "色度通道滑塊(HSL)"
+
+msgid "sliders for value channel (of HSL)"
+msgstr "值通道滑塊(HSL)"
+
+msgid ""
+"adjustment based on input received by this module:\n"
+"* range defined by upper markers: blend fully\n"
+"* range defined by lower markers: do not blend at all\n"
+"* range between adjacent upper/lower markers: blend gradually"
+msgstr ""
+"基于由這個模組收到的輸入的調整:\n"
+"*由上標定義的範圍: 完全混合\n"
+"*由下標定義的範圍: 完全不混合\n"
+"*相鄰的上/下標之間的範圍: 逐漸混合"
+
+msgid ""
+"adjustment based on unblended output of this module:\n"
+"* range defined by upper markers: blend fully\n"
+"* range defined by lower markers: do not blend at all\n"
+"* range between adjacent upper/lower markers: blend gradually"
+msgstr ""
+"基于這個模組未混合的輸出的調整:\n"
+"*由上標定義的範圍: 完全混合\n"
+"*由下標定義的範圍: 完全不混合\n"
+"*相鄰的上 / 下標之間的範圍: 逐漸混合"
+
+msgid "pick gui color from image"
+msgstr "從圖片選取GUI顏色"
+
+msgid "reset blend mask settings"
+msgstr "重置混合遮罩設置"
+
+msgid "invert all channel's polarities"
+msgstr "反轉所有通道的極性"
+
+msgid "toggle polarity. best seen by enabling 'display mask'"
+msgstr "極性切換. 為顯示最好效果請啟用 '顯示遮罩'"
+
+msgid "output"
+msgstr "輸出"
+
+msgid "input"
+msgstr "輸入"
+
+msgid "double click to reset"
+msgstr "雙擊以重置"
+
+msgid "no mask used"
+msgstr "無 遮罩使用中"
+
+msgid "masks"
+msgstr "遮罩"
+
+msgid "show and edit mask elements"
+msgstr "顯示和編輯遮罩元素"
+
+msgid "add circular shape"
+msgstr "添加圓形遮罩"
+
+msgid "add curve shape"
+msgstr "添加曲線形狀"
+
+msgid "blend"
+msgstr "混合"
+
+msgid "uniformly"
+msgstr "均勻"
+
+msgid "drawn mask"
+msgstr "繪製遮罩"
+
+msgid "parametric mask"
+msgstr "參數遮罩"
+
+msgid "drawn & parametric mask"
+msgstr "繪製 & 參數遮罩"
+
+msgid ""
+"activate blending: uniformly, with drawn mask, with parametric mask, or "
+"combination of both"
+msgstr "啟用渲染: 統一渲染, 使用繪製遮罩, 使用參數遮罩, 或者兩者組合"
+
+msgid "blend mode"
+msgstr "混合模式"
+
+msgid "normal"
+msgstr "正常"
+
+msgid "normal bounded"
+msgstr "法線界"
+
+msgid "lighten"
+msgstr "變亮(lighten)"
+
+msgid "darken"
+msgstr "加暗(darken)"
+
+msgid "multiply"
+msgstr "正片疊底(multiply)"
+
+msgid "average"
+msgstr "平均(average)"
+
+msgid "addition"
+msgstr "增加(addition)"
+
+msgid "subtract"
+msgstr "減去(subtract)"
+
+msgid "difference"
+msgstr "差異(difference)"
+
+msgid "screen"
+msgstr "螢幕(screen)"
+
+msgid "overlay"
+msgstr "覆蓋(overlay)"
+
+msgid "softlight"
+msgstr "柔光(softlight)"
+
+msgid "hardlight"
+msgstr "實光(hardlight)"
+
+msgid "vividlight"
+msgstr "強烈光源(vividlight)"
+
+msgid "linearlight"
+msgstr "線性光源(linearlight)"
+
+msgid "pinlight"
+msgstr "小光源(pinlight)"
+
+msgid "lightness"
+msgstr "亮度(lightness)"
+
+msgid "chroma"
+msgstr "色度(chroma)"
+
+msgid "hue"
+msgstr "色調(hue)"
+
+msgid "color"
+msgstr "顏色"
+
+msgid "coloradjustment"
+msgstr "色彩調整"
+
+msgid "choose blending mode"
+msgstr "選擇混合模式"
+
+msgid "difference (deprecated)"
+msgstr "差異 (已棄用)"
+
+msgid "inverse (deprecated)"
+msgstr "反轉 (已棄用)"
+
+msgid "normal (deprecated)"
+msgstr "正常 (已棄用)"
+
+msgid "unbounded (deprecated)"
+msgstr "無限的 (已棄用)"
+
+msgid "opacity"
+msgstr "不透明度"
+
+msgid "set the opacity of the blending"
+msgstr "設置混合模式的不透明度"
+
+msgid "combine masks"
+msgstr "組合遮罩"
+
+msgid "exclusive"
+msgstr "排除"
+
+msgid "inclusive"
+msgstr "包含"
+
+msgid "exclusive & inverted"
+msgstr "排除並反向"
+
+msgid "inclusive & inverted"
+msgstr "包含並反向"
+
+msgid ""
+"how to combine individual drawn mask and different channels of parametric "
+"mask"
+msgstr "如何組合單獨的繪製遮罩和參數遮罩的不同頻道"
+
+msgid "invert mask"
+msgstr "反轉遮罩"
+
+msgid "apply mask in normal or inverted mode"
+msgstr "使用正常或反轉模式應用遮罩"
+
+msgid "mask blur"
+msgstr "模糊遮罩"
+
+msgid "radius for gaussian blur of blend mask"
+msgstr "混合遮罩的高斯模糊半徑"
+
+msgid "display mask"
+msgstr "顯示遮罩"
+
+msgid "temporarily switch off blend mask. only for module in focus"
+msgstr "暫時關閉混合遮罩. 僅適用于對焦模組"
+
+msgid "%s: module `%s' version mismatch: %d != %d"
+msgstr "%s: 模組 `%s' 版本不相容:  %d != %d"
+
+msgid "error creating gui, see stderr"
+msgstr "建立gui出錯, 請參考標準錯誤 (stderr)"
+
+msgid "error creating gui, DT_SIMPLE_GUI_NONE could not be found"
+msgstr "建立gui出錯, 無法找到 DT_SIMPLE_GUI_NONE"
+
+msgid "new instance"
+msgstr "啟動新執行緒"
+
+msgid "move up"
+msgstr "上移"
+
+msgid "move down"
+msgstr "向下移動"
+
+msgid "delete"
+msgstr "刪除"
+
+msgid "%s is switched on"
+msgstr "%s 已開"
+
+msgid "%s is switched off"
+msgstr "%s 已關"
+
+msgid "preset"
+msgstr "預置"
+
+msgctxt "accel"
+msgid "fusion"
+msgstr "融合(fusion)"
+
+msgctxt "accel"
+msgid "show module"
+msgstr "顯示模組"
+
+msgctxt "accel"
+msgid "enable module"
+msgstr "啟用模組"
+
+msgctxt "accel"
+msgid "reset module parameters"
+msgstr "重置模組參數"
+
+msgctxt "accel"
+msgid "show preset menu"
+msgstr "顯示預置選單"
+
+msgid "multiple instances actions"
+msgstr "多執行緒動作"
+
+msgid "reset parameters"
+msgstr "重置參數"
+
+msgid "presets"
+msgstr "預置"
+
+msgid "cannot find lightroom xmp!"
+msgstr "無法找到lightroom xmp!"
+
+msgid "`%s' not a lightroom xmp!"
+msgstr "\" %s\" 不是 lightroom xmp!"
+
+msgid "tags"
+msgstr "標籤"
+
+msgid "rating"
+msgstr "評級"
+
+msgid "geotagging"
+msgstr "地理標籤"
+
+msgid "color label"
+msgstr "色彩標識"
+
+msgid "%s has been imported"
+msgid_plural "%s have been imported"
+msgstr[0] "%s 已匯入"
+
+msgid "tiling failed for module '%s'. output might be garbled."
+msgstr "模組 '%s' 平鋪失敗. 輸出可能會出現混亂."
+
+msgid "double-click to reset"
+msgstr "雙擊以重置"
+
+msgctxt "accel"
+msgid "global"
+msgstr "全局"
+
+msgctxt "accel"
+msgid "views"
+msgstr "檢視"
+
+msgctxt "accel"
+msgid "image operations"
+msgstr "影像操作"
+
+msgctxt "accel"
+msgid "modules"
+msgstr "模組"
+
+msgctxt "accel"
+msgid "increase"
+msgstr "增加"
+
+msgctxt "accel"
+msgid "decrease"
+msgstr "減少"
+
+msgctxt "accel"
+msgid "reset"
+msgstr "重置"
+
+msgctxt "accel"
+msgid "edit"
+msgstr "編輯"
+
+msgid "deleting preset for obsolete module"
+msgstr "正在刪除過時模組的預置訊息"
+
+msgid "store value as default"
+msgstr "保存為預設值"
+
+msgid "reset value to default"
+msgstr "重置到預設值"
+
+msgid "import images from camera"
+msgstr "從相機匯入影像"
+
+msgid "cancel"
+msgstr "取消"
+
+msgctxt "camera import"
+msgid "import"
+msgstr "匯入"
+
+msgid "my jobcode"
+msgstr "我的任務代碼"
+
+msgid "please wait while prefetching thumbnails of images from camera..."
+msgstr "正在從相機預讀取影像縮圖, 請稍候..."
+
+msgid "jobcode"
+msgstr "任務代碼"
+
+msgid "thumbnail"
+msgstr "縮圖"
+
+msgid "storage file"
+msgstr "儲存檔"
+
+msgid "general"
+msgstr "一般"
+
+msgid "ignore jpeg files"
+msgstr "忽略jpeg檔案"
+
+msgid ""
+"do not load files with an extension of .jpg or .jpeg. this can be useful "
+"when there are raw+jpeg in a directory."
+msgstr ""
+"不載入副檔名為 .jpg 或 .jpeg 的檔案.當RAW和JPEG影像存在於同一個目錄時, 使用該"
+"選項很有效."
+
+msgid "delete originals after import"
+msgstr "匯入後刪除原圖"
+
+msgid ""
+"check this option if you want to delete images on camera after download to "
+"computer"
+msgstr "如果您想在匯入影像至計算機後刪除相機中的原件, 請勾選此項"
+
+msgid "override today's date"
+msgstr "覆蓋本日日期"
+
+msgid ""
+"check this, if you want to override the timestamp used when expanding "
+"variables:\n"
+"$(YEAR), $(MONTH), $(DAY),\n"
+"$(HOUR), $(MINUTE), $(SECONDS)"
+msgstr ""
+"如果你需要覆蓋拍攝時間, 選擇此項:\n"
+"$(YEAR), $(MONTH), $(DAY),\n"
+"$(HOUR), $(MINUTE), $(SECONDS)"
+
+msgid "storage structure"
+msgstr "儲存結構"
+
+msgid ""
+"the following three settings describe the directory structure and file "
+"renaming for import storage and images; if you don't know how to use this, "
+"keep the default settings."
+msgstr ""
+"以下三個設置描述匯入影像時的目錄結構和檔案重命名規則; 如果您不知道如何使用此"
+"功能, 請保留預設值."
+
+msgid "storage directory"
+msgstr "儲存目錄"
+
+msgid "directory structure"
+msgstr "目錄結構"
+
+msgid "filename structure"
+msgstr "檔案名結構"
+
+msgid "above settings expands to:"
+msgstr "以上設置擴展至:"
+
+msgid "external backup"
+msgstr "外部備份"
+
+msgid ""
+"external backup is an option to automatic do a backup of the imported "
+"image(s) to another physical location, when activated it does looks for "
+"specified backup foldername of mounted devices on your system... each found "
+"folder is used as basedirectory in the above storage structure and when a "
+"image are downloaded from camera it is replicated to found backup "
+"destinations."
+msgstr ""
+"外部備份是一個自動備份匯入影像的選項, 將匯入的圖片存放於另一個實體儲存裝置"
+"上, 啟用此選項後將自動搜尋指定的備份目錄(需已掛載). 每次找到的目錄作為基目"
+"錄, 從相機下載到的圖片將同時複製一份備份至此."
+
+msgid "enable backup"
+msgstr "啟用備份"
+
+msgid "check this option to enable automatic backup of imported images"
+msgstr "勾選此選項以啟用匯入影像的自動備份"
+
+msgid "warn if no backup destinations are present"
+msgstr "當沒有備份目的地時發出警告"
+
+msgid ""
+"check this option to get an interactive warning if no backupdestinations are "
+"present"
+msgstr "勾選此選項, 若未找到備份目的地, 將得到警告視窗"
+
+msgid "backup foldername"
+msgstr "備份目錄名稱"
+
+msgid ""
+"this is the name of folder that indicates a backup destination,\n"
+"if such a folder is found in any mounter media it is used as a backup "
+"destination."
+msgstr ""
+"這是指定為備份的目的地的目錄名稱,\n"
+"如果此目錄為已掛載儲存媒體, 則會被用作備份目的地."
+
+msgid "images"
+msgstr "影像"
+
+msgid "settings"
+msgstr "設置"
+
+msgid ""
+"select the images from the list below that you want to import into a new "
+"filmroll"
+msgstr "從下面的列表中選擇影像以匯入到一個新的膠捲"
+
+msgid "please set the basedirectory settings before importing"
+msgstr "在匯入前請設定基目錄設置"
+
+msgid "please set the subdirectory settings before importing"
+msgstr "在匯入前請設定子目錄設置"
+
+msgid "please set the filenamepattern settings before importing"
+msgstr "在匯入前請設定檔名模式設置"
+
+msgid "please use YYYY-MM-DD format for date override"
+msgstr "日期覆蓋請用 YYYY-MM-DD 格式"
+
+msgctxt "accel"
+msgid "capture view"
+msgstr "捕捉檢視"
+
+msgctxt "accel"
+msgid "lighttable view"
+msgstr "光桌檢視"
+
+msgctxt "accel"
+msgid "darkroom view"
+msgstr "暗房檢視"
+
+msgctxt "accel"
+msgid "map view"
+msgstr "地圖檢視"
+
+msgctxt "accel"
+msgid "quit"
+msgstr "退出"
+
+msgctxt "accel"
+msgid "increase brightness"
+msgstr "增加亮度"
+
+msgctxt "accel"
+msgid "decrease brightness"
+msgstr "減小亮度"
+
+msgctxt "accel"
+msgid "increase contrast"
+msgstr "增加對比度"
+
+msgctxt "accel"
+msgid "decrease contrast"
+msgstr "減小對比度"
+
+msgctxt "accel"
+msgid "toggle fullscreen"
+msgstr "切換全螢幕"
+
+msgctxt "accel"
+msgid "leave fullscreen"
+msgstr "離開全螢幕"
+
+msgctxt "accel"
+msgid "toggle side borders"
+msgstr "切換側邊框"
+
+msgctxt "accel"
+msgid "toggle header"
+msgstr "切換表頭"
+
+msgctxt "accel"
+msgid "switch view"
+msgstr "切換檢視"
+
+msgid "$(ROLL_NAME) - roll of the input image"
+msgstr "$(ROLL_NAME) - 輸入影像的卷"
+
+msgid "$(FILE_FOLDER) - folder containing the input image"
+msgstr "$(FILE_FOLDER) - 包含輸入影像的目錄"
+
+msgid "$(FILE_NAME) - basename of the input image"
+msgstr "$(FILE_NAME) - 輸入影像的主檔名"
+
+msgid "$(FILE_EXTENSION) - extension of the input image"
+msgstr "$(FILE_EXTENSION) - 輸入影像的副檔名"
+
+msgid "$(SEQUENCE) - sequence number"
+msgstr "$(SEQUENCE) - 序列號"
+
+msgid "$(YEAR) - year"
+msgstr "$(YEAR) - 年"
+
+msgid "$(MONTH) - month"
+msgstr "$(MONTH) - 月"
+
+msgid "$(DAY) - day"
+msgstr "$(DAY) - 日"
+
+msgid "$(HOUR) - hour"
+msgstr "$(HOUR) - 時"
+
+msgid "$(MINUTE) - minute"
+msgstr "$(MINUTE) - 分"
+
+msgid "$(SECOND) - second"
+msgstr "$(SECOND) - 秒"
+
+msgid "$(EXIF_YEAR) - exif year"
+msgstr "$(EXIF_YEAR) - exif年"
+
+msgid "$(EXIF_MONTH) - exif month"
+msgstr "$(EXIF_MONTH) - exif月"
+
+msgid "$(EXIF_DAY) - exif day"
+msgstr "$(EXIF_DAY) - exif日"
+
+msgid "$(EXIF_HOUR) - exif hour"
+msgstr "$(EXIF_HOUR) - exif時"
+
+msgid "$(EXIF_MINUTE) - exif minute"
+msgstr "$(EXIF_MINUTE) - exif分"
+
+msgid "$(EXIF_SECOND) - exif second"
+msgstr "$(EXIF_SECOND) - exif秒"
+
+msgid "$(EXIF_ISO) - iso value"
+msgstr "$(EXIF_ISO) - iso 感光度"
+
+msgid "$(STARS) - star rating"
+msgstr "$(STARS) - 評級"
+
+msgid "$(LABELS) - colorlabels"
+msgstr "$(LABELS) - 色彩標籤"
+
+msgid "$(PICTURES_FOLDER) - pictures folder"
+msgstr "$(PICTURES_FOLDER) - 影像目錄"
+
+msgid "$(HOME) - home folder"
+msgstr "$(HOME) - 家目錄"
+
+msgid "$(DESKTOP) - desktop folder"
+msgstr "$(DESKTOP) - 桌面目錄"
+
+msgid "darktable preferences"
+msgstr "darktable偏好設定"
+
+msgid "close"
+msgstr "關閉"
+
+msgid "module"
+msgstr "模組"
+
+msgid "name"
+msgstr "名稱"
+
+msgid "model"
+msgstr "型號"
+
+msgid "maker"
+msgstr "廠商"
+
+msgid "lens"
+msgstr "鏡頭"
+
+msgid "iso"
+msgstr "ISO感光度"
+
+msgid "exposure"
+msgstr "曝光"
+
+msgid "aperture"
+msgstr "光圈"
+
+msgid "focal length"
+msgstr "鏡頭焦距"
+
+msgid "auto"
+msgstr "自動"
+
+msgid "shortcuts"
+msgstr "快捷鍵"
+
+msgid "shortcut"
+msgstr "快捷鍵"
+
+msgid "binding"
+msgstr "綁定"
+
+msgid "default"
+msgstr "預設"
+
+msgctxt "preferences"
+msgid "import"
+msgstr "匯入"
+
+msgid "export"
+msgstr "匯出"
+
+msgid "press key combination to remap..."
+msgstr "按下按鍵組合以重映射..."
+
+msgid "do you really want to delete the preset `%s'?"
+msgstr "確定要刪除預置 `%s'?"
+
+msgid "delete preset?"
+msgstr "刪除預置?"
+
+msgid "select file to export"
+msgstr "選擇匯出檔案"
+
+msgid "select file to import"
+msgstr "選擇匯入檔案"
+
+msgid ""
+"Are you sure you want to restore the default keybindings?  This will erase "
+"any modifications you have made."
+msgstr "你確定要恢復預設快速鍵綁定? 這將會刪除你所做的任何修改."
+
+msgid "edit `%s' for module `%s'"
+msgstr "編輯 `%s' -> 模組 `%s'"
+
+msgid "description or further information"
+msgstr "說明或進一步的訊息"
+
+msgid "auto apply this preset to matching images"
+msgstr "自動應用此預置至匹配的影像"
+
+msgid "only show this preset for matching images"
+msgstr "只對匹配的影像顯示此預置"
+
+msgid ""
+"be very careful with this option. this might be the last time you see your "
+"preset."
+msgstr "勾選此項請注意. 這有可能是你最後一次看到你的預置."
+
+msgid "string to match model (use % as wildcard)"
+msgstr "匹配模型字串(使用 % 作為通配符wildcard)"
+
+msgid "string to match maker (use % as wildcard)"
+msgstr "匹配作者的字串(使用 % 作為通配符wildcard)"
+
+msgid "string to match lens (use % as wildcard)"
+msgstr "匹配鏡頭的字串(使用 % 作為通配符wildcard)"
+
+msgid "minimum iso value"
+msgstr "最小ISO值"
+
+msgid "maximum iso value"
+msgstr "最大ISO值"
+
+msgid "minimum exposure time"
+msgstr "最小曝光時間"
+
+msgid "maximum exposure time"
+msgstr "最大曝光時間"
+
+msgid "minimum aperture value"
+msgstr "最小光圈值"
+
+msgid "maximum aperture value"
+msgstr "最大光圈值"
+
+msgid "minimum focal length"
+msgstr "最小焦距"
+
+msgid "maximum focal length"
+msgstr "最大焦距"
+
+msgid "(default)"
+msgstr "(預設)"
+
+msgid "new preset"
+msgstr "新預置"
+
+msgid "please give preset a name"
+msgstr "請命名該預置"
+
+msgid "unnamed preset"
+msgstr "未命名預置"
+
+msgid ""
+"preset `%s' already exists.\n"
+"do you want to overwrite?"
+msgstr "預置 `%s' 已存在. 您想覆蓋它嗎?"
+
+msgid "overwrite preset?"
+msgstr "覆蓋預置?"
+
+msgid "name of the preset"
+msgstr "預置名稱"
+
+msgid "disabled: wrong module version"
+msgstr "已禁用: 模組版本錯誤"
+
+msgid "edit this preset.."
+msgstr "編輯此預置.."
+
+msgid "delete this preset"
+msgstr "刪除此預置"
+
+msgid "store new preset.."
+msgstr "儲存為新預置.."
+
+msgid "update preset"
+msgstr "更新預置"
+
+msgid "style %s was successfully saved"
+msgstr "樣式 %s 已成功保存"
+
+msgid "edit style"
+msgstr "編輯樣式"
+
+msgid "duplicate style"
+msgstr "重複樣式"
+
+msgid "creates a duplicate of the style before applying changes"
+msgstr "應用改變前建立一個此樣式的複製品"
+
+msgid "create new style"
+msgstr "建立新樣式"
+
+msgid "enter a name for the new style"
+msgstr "輸入新樣式的名稱"
+
+msgid "enter a description for the new style, this description is searchable"
+msgstr "請輸入新樣式的描述, 該描述可被搜尋"
+
+msgid "include"
+msgstr "包含"
+
+msgid "update"
+msgstr "更新"
+
+msgid "item"
+msgstr "項目"
+
+msgid "can't create style out of unaltered image"
+msgstr "不能從未改變的影像建立樣式"
+
+msgid "select parts"
+msgstr "選擇零件"
+
+msgid "can't copy history out of unaltered image"
+msgstr "不能從未更改的影像中複製歷史記錄"
+
+msgid "copy"
+msgstr "複製"
+
+msgid ""
+"do a 1:1 copy of the selected files.\n"
+"the global options below do not apply!"
+msgstr ""
+"1:1的複製選定的影像.\n"
+"以下全局選項是不適用的!"
+
+msgid "openexr"
+msgstr "openexr"
+
+msgid "jpeg 2000"
+msgstr "jpeg 2000"
+
+msgid "jp2"
+msgstr "jp2"
+
+msgid "j2k"
+msgstr "j2k"
+
+msgid "quality"
+msgstr "品質"
+
+msgid "dcp mode"
+msgstr "dcp模式"
+
+msgid "cinema2k, 24fps"
+msgstr "cinema2k, 24fps"
+
+msgid "cinema2k, 48fps"
+msgstr "cinema2k, 48fps"
+
+msgid "cinema4k, 24fps"
+msgstr "cinema4k, 24fps"
+
+msgid "8-bit jpg"
+msgstr "8位元 jpg"
+
+msgid "float pfm"
+msgstr "浮動pfm"
+
+msgid "8/16-bit png"
+msgstr "8/16位元png"
+
+msgid "8-bit"
+msgstr "8位元"
+
+msgid "16-bit"
+msgstr "16位元"
+
+msgid "16-bit ppm"
+msgstr "16位元 ppm"
+
+msgid "8/16-bit tiff"
+msgstr "8/16位元 tiff"
+
+msgid "file on disk"
+msgstr "磁碟中檔案"
+
+msgid ""
+"enter the path where to put exported images\n"
+"recognized variables:"
+msgstr ""
+"輸入匯出影像的路徑\n"
+"可識別的參數:"
+
+msgid "could not create directory `%s'!"
+msgstr "無法建立目錄 `%s'!"
+
+msgid "could not write to directory `%s'!"
+msgstr "無法寫入目錄 `%s'!"
+
+msgid "could not export to file `%s'!"
+msgstr "無法匯出至檔案 `%s'!"
+
+msgid "%d/%d exported to `%s%s'"
+msgstr "%d/%d 已匯出至 `%s%s'"
+
+msgid "send as email"
+msgstr "以郵件發送"
+
+msgid "images exported from darktable"
+msgstr "由darktable匯出的影像"
+
+msgid "[facebook] unexpeted url format\n"
+msgstr "[facebook]錯誤的網址格式\n"
+
+msgid ""
+"step 1: a new window or tab of your browser should have been loaded. you "
+"have to login into your facebook account there and authorize darktable to "
+"upload photos before continuing."
+msgstr ""
+"步驟 1: 您的瀏覽器的新視窗或分頁應該已載入. 您必須登入到你的 facebook 帳戶並"
+"授權 darktable 上傳照片再繼續."
+
+msgid ""
+"step 2: paste your browser url and click the ok button once you are done."
+msgstr "步驟2: 當您完成操作後, 貼上瀏覽器中的網址並點擊OK."
+
+msgid "Facebook authentication"
+msgstr "Facebook 授權"
+
+msgid "url:"
+msgstr "網址:"
+
+msgid "please enter the validation url"
+msgstr "請輸入有效網址"
+
+msgid "the given url is not valid, it should look like: "
+msgstr "網址無效, 它應該類似於: "
+
+msgid "new account"
+msgstr "新帳號"
+
+msgid "other account"
+msgstr "其它帳號"
+
+msgid "unable to retreive the album list"
+msgstr "無法下載相簿列表"
+
+msgid "create new album"
+msgstr "建立新相簿"
+
+msgid "logout"
+msgstr "登出"
+
+msgid "login"
+msgstr "登入"
+
+msgid "facebook webalbum"
+msgstr "facebook 線上相簿"
+
+msgid "title"
+msgstr "標題"
+
+msgid "summary"
+msgstr "摘要"
+
+msgid "privacy"
+msgstr "隱私"
+
+msgid "Only Me"
+msgstr "只是我"
+
+msgid "Friends"
+msgstr "朋友"
+
+msgid "Public"
+msgstr "公開"
+
+msgid "Friends of Friends"
+msgstr "朋友之友"
+
+msgid "unable to create album, no title provided"
+msgstr "沒有提供標題, 無法建立相簿"
+
+msgid "unable to create album"
+msgstr "無法建立新相簿"
+
+msgid "unable to export photo to webalbum"
+msgstr "無法將圖片匯出至線上相簿"
+
+msgid "%d/%d exported to facebook webalbum"
+msgstr "%d/%d 已被匯出至facebook線上相簿"
+
+msgid "flickr authentication: %s"
+msgstr "flickr 授權:  %s"
+
+msgid ""
+"step 1: a new window or tab of your browser should have been loaded. you "
+"have to login into your flickr account there and authorize darktable to "
+"upload photos before continuing."
+msgstr ""
+"步驟1: 一個新的瀏覽器窗口或標籤頁將被加載.在繼續下一步前, 你必須在登入你的"
+"flickr帳號並且授權darktable可以上傳圖片."
+
+msgid "step 2: click the ok button once you are done."
+msgstr "步驟2: 當你完成操作後, 點擊OK按鈕."
+
+msgid "flickr authentication"
+msgstr "flickr 授權"
+
+msgid "flickr webalbum"
+msgstr "flickr 線上相簿"
+
+msgid "not authenticated"
+msgstr "未授權"
+
+msgid "authenticated"
+msgstr "已授權"
+
+msgid "without album"
+msgstr "沒有相簿"
+
+msgid "flickr user"
+msgstr "flickr使用者"
+
+msgid "photosets"
+msgstr "照片集"
+
+msgid "visible to"
+msgstr "可見性"
+
+msgid "click login button to start"
+msgstr "要開始請點擊”登入“按鈕"
+
+msgid "my new photoset"
+msgstr "我的新照片集"
+
+msgid "exported from darktable"
+msgstr "由darktable匯出"
+
+msgid "refresh album list"
+msgstr "更新相簿列表"
+
+msgid "Flickr login"
+msgstr "登入Flickr"
+
+msgid "export tags"
+msgstr "匯出標籤"
+
+msgid "you"
+msgstr "你"
+
+msgid "friends"
+msgstr "朋友"
+
+msgid "family"
+msgstr "家庭"
+
+msgid "friends + family"
+msgstr "朋友 + 家庭"
+
+msgid "everyone"
+msgstr "所有人"
+
+msgid "%d/%d exported to flickr webalbum"
+msgstr "%d/%d 已被匯出至flickr線上相冊"
+
+msgid "website gallery"
+msgstr "網站相簿"
+
+msgid "enter the title of the website"
+msgstr "輸入網站標題"
+
+msgid "latex book template"
+msgstr "latex 書籍模板"
+
+msgid "enter the title of the book"
+msgstr "輸入書籍標題"
+
+msgid ""
+"step 1: a new window or tab of your browser should have been loaded. you "
+"have to login into your picasa account there and authorize darktable to "
+"upload photos before continuing."
+msgstr ""
+"步驟 1: 您的瀏覽器的新視窗或分頁應該已載入. 您必須登入到您的 picasa 帳戶, 並"
+"授權 darktable 上傳照片, 然後再繼續."
+
+msgid "picasa authentication"
+msgstr "picasa 授權"
+
+msgid "picasa webalbum"
+msgstr "picasa 網絡相冊"
+
+msgid "private"
+msgstr "私有"
+
+msgid "public"
+msgstr "公開"
+
+msgid "%d/%d exported to picasa webalbum"
+msgstr "%d/%d 匯出到 picasa 網絡相冊"
+
+msgid "equalizer"
+msgstr "均衡器"
+
+msgctxt "accel"
+msgid "mix"
+msgstr "混合"
+
+msgid "enhance coarse"
+msgstr "加粗"
+
+msgid "sharpen and denoise (strong)"
+msgstr "鋭化並降噪(強)"
+
+msgid "sharpen and denoise"
+msgstr "鋭化並降噪"
+
+msgid "sharpen (strong)"
+msgstr "鋭化(強)"
+
+msgctxt "atrous"
+msgid "sharpen"
+msgstr "鋭化"
+
+msgid "chroma denoise"
+msgstr "彩色(chroma)降噪"
+
+msgid "denoise (subtle)"
+msgstr "降噪(弱)"
+
+msgid "denoise"
+msgstr "降噪"
+
+msgid "denoise (strong)"
+msgstr "降噪(強)"
+
+msgid "bloom"
+msgstr "bloom"
+
+msgid "clarity (subtle)"
+msgstr "清晰度(小)"
+
+msgid "clarity"
+msgstr "清晰度"
+
+msgid "coarse"
+msgstr "粗"
+
+msgid "fine"
+msgstr "精細"
+
+msgid "contrasty"
+msgstr "強對比"
+
+msgid "smooth"
+msgstr "平滑"
+
+msgid "noisy"
+msgstr "雜訊化"
+
+msgid "bold"
+msgstr "加重(bold)"
+
+msgid "dull"
+msgstr "減輕(dull)"
+
+msgid "luma"
+msgstr "亮度(luma)"
+
+msgid "change lightness at each feature size"
+msgstr "以每個特性大小改變明度"
+
+msgid "change color saturation at each feature size"
+msgstr "以每個特性大小改變顏色飽和度"
+
+msgid "sharpness"
+msgstr "鋭度"
+
+msgid "sharpness of edges at each feature size"
+msgstr "邊緣的鋭度每個特性的尺寸"
+
+msgid "mix"
+msgstr "混合"
+
+msgid "make effect stronger or weaker"
+msgstr "使得效果增強或削弱"
+
+msgid "dark contrast"
+msgstr "暗對比度"
+
+msgid "canon eos like"
+msgstr "佳能 (Canon) EOS系列"
+
+msgid "canon eos like alternate"
+msgstr "佳能 (Canon) EOS其他系列"
+
+msgid "nikon like"
+msgstr "尼康 (Nikon) 系列"
+
+msgid "nikon like alternate"
+msgstr "尼康 (Nikon) 其他系列"
+
+msgid "sony alpha like"
+msgstr "索尼 (Sony) alpha系列"
+
+msgid "pentax like"
+msgstr "賓得士 (Pentax) 系列"
+
+msgid "ricoh like"
+msgstr "理光 (Ricoh) 系列"
+
+msgid "olympus like"
+msgstr "奧林巴斯 (Olympus) 系列"
+
+msgid "olympus like alternate"
+msgstr "奧林巴斯 (Olympus) 其他系列"
+
+msgid "panasonic like"
+msgstr "松下 (Panasonic) 系列"
+
+msgid "leica like"
+msgstr "徠卡 (Leica) 樣式"
+
+msgid "kodak easyshare like"
+msgstr "柯達 (Kodah) easyshare系列"
+
+msgid "konica minolta like"
+msgstr "柯尼卡 (Konica Minolta) 系列"
+
+msgid "samsung like"
+msgstr "三星 (Samsung) 系列"
+
+msgid "fujifilm like"
+msgstr "富士 (Fujifilm) 系列"
+
+msgid "fotogenetic (point & shoot)"
+msgstr "fotogenetic (袖珍相機)"
+
+msgid "fotogenetic (EV3)"
+msgstr "fotogenetic (EV3)"
+
+msgid "base curve"
+msgstr "基礎曲綫"
+
+msgid "abscissa: input, ordinate: output. works on RGB channels"
+msgstr "橫軸: 輸入, 縱軸: 輸出.於RGB通道使用"
+
+msgid "local contrast"
+msgstr "局部對比度"
+
+msgid "coarseness"
+msgstr "粗度"
+
+msgid "contrast"
+msgstr "對比"
+
+msgid "detail"
+msgstr "細節"
+
+msgid "denoise (bilateral filter)"
+msgstr "降噪(雙邊濾波)"
+
+msgctxt "accel"
+msgid "radius"
+msgstr "半徑"
+
+msgctxt "accel"
+msgid "red"
+msgstr "紅"
+
+msgctxt "accel"
+msgid "green"
+msgstr "綠"
+
+msgctxt "accel"
+msgid "blue"
+msgstr "藍"
+
+msgid "spatial extent of the gaussian"
+msgstr "高斯空間範圍"
+
+msgid "how much to blur red"
+msgstr "紅色的模糊量"
+
+msgid "how much to blur green"
+msgstr "綠色的模糊量"
+
+msgid "how much to blur blue"
+msgstr "藍色的模糊量"
+
+msgid "radius"
+msgstr "半徑"
+
+msgctxt "accel"
+msgid "size"
+msgstr "尺寸"
+
+msgctxt "accel"
+msgid "threshold"
+msgstr "閾值"
+
+msgctxt "accel"
+msgid "strength"
+msgstr "力度"
+
+msgid "size"
+msgstr "尺寸"
+
+msgid "the size of bloom"
+msgstr "bloom 尺寸"
+
+msgid "threshold"
+msgstr "閾值"
+
+msgid "the threshold of light"
+msgstr "光閾值"
+
+msgid "strength"
+msgstr "力度"
+
+msgid "the strength of bloom"
+msgstr "bloom 力度"
+
+msgid "framing"
+msgstr "加相框"
+
+msgctxt "accel"
+msgid "border size"
+msgstr "邊框大小"
+
+msgctxt "accel"
+msgid "pick border color from image"
+msgstr "從影像中選擇邊框顏色"
+
+msgctxt "accel"
+msgid "frame line size"
+msgstr "分幀綫尺寸"
+
+msgctxt "accel"
+msgid "pick frame line color from image"
+msgstr "從影像中選擇分幀綫顏色"
+
+msgid "15:10 postcard white"
+msgstr "15:10 明信片 白色"
+
+msgid "15:10 postcard black"
+msgstr "15:10 明信片 黑色"
+
+msgid "select border color"
+msgstr "選擇邊框顏色"
+
+msgid "select frame line color"
+msgstr "選擇分幀綫顏色"
+
+msgid "image"
+msgstr "相片"
+
+msgid "3:1"
+msgstr "3:2"
+
+msgid "95:33"
+msgstr "95:33"
+
+msgid "2:1"
+msgstr "2:1"
+
+msgid "16:9"
+msgstr "16:9"
+
+msgid "golden cut"
+msgstr "黃金分割"
+
+msgid "3:2"
+msgstr "3:2"
+
+msgid "A4"
+msgstr "A4"
+
+msgid "DIN"
+msgstr "DIN"
+
+msgid "4:3"
+msgstr "4:3"
+
+msgid "square"
+msgstr "正方形"
+
+msgid "constant border"
+msgstr "定長邊框"
+
+msgid "center"
+msgstr "中心"
+
+msgid "1/3"
+msgstr "1/3"
+
+msgid "3/8"
+msgstr "3/8"
+
+msgid "5/8"
+msgstr "5/8"
+
+msgid "2/3"
+msgstr "2/3"
+
+msgid "border size"
+msgstr "邊框尺寸"
+
+msgid "size of the border in percent of the full image"
+msgstr "邊框尺寸(全圖尺寸百分比)"
+
+msgid "aspect"
+msgstr "寬高比"
+
+msgid "select the aspect ratio or right click and type your own (w:h)"
+msgstr "選擇縱橫比或右鍵單擊並自定義 (w:h)"
+
+msgid "orientation"
+msgstr "方向"
+
+msgid "portrait"
+msgstr "縱向"
+
+msgid "landscape"
+msgstr "橫向"
+
+msgid "aspect ratio orientation of the image with border"
+msgstr "含邊框的影像縱橫比取向"
+
+msgid "horizontal position"
+msgstr "水平位置"
+
+msgid ""
+"select the horizontal position ratio relative to top or right click and type "
+"your own (y:h)"
+msgstr "選擇相對於頂部的水平位置比或右鍵單擊並自定義(y:h)"
+
+msgid "vertical position"
+msgstr "垂直位置"
+
+msgid ""
+"select the vertical position ratio relative to left or right click and type "
+"your own (x:w)"
+msgstr "選擇相對於頂部的垂直位置比或右鍵單擊並自定義(x:w)"
+
+msgid "frame line size"
+msgstr "分幀綫尺寸"
+
+msgid "size of the frame line in percent of min border width"
+msgstr "分幀綫的尺寸(以全圖尺寸百分比表示)"
+
+msgid "frame line offset"
+msgstr "分幀綫偏移"
+
+msgid "offset of the frame line beginning on picture side"
+msgstr "從圖片側開始的框架線偏移量"
+
+msgid "border color"
+msgstr "邊框顏色"
+
+msgid "pick border color from image"
+msgstr "從圖片選取邊框顏色"
+
+msgid "frame line color"
+msgstr "分幀綫顏色"
+
+msgid "pick frame line color from image"
+msgstr "從圖片選取分幀綫顏色"
+
+msgid "chromatic aberrations"
+msgstr "色差"
+
+msgid "automatic chromatic aberration correction"
+msgstr "自動色差校正"
+
+msgid ""
+"automatic chromatic aberration correction\n"
+"only works for raw images."
+msgstr ""
+"自動色差校正\n"
+"只作用於RAW影像."
+
+msgid "channel mixer"
+msgstr "通道混合"
+
+msgid "destination"
+msgstr "目的地"
+
+msgid "saturation"
+msgstr "飽和度"
+
+msgid "gray"
+msgstr "灰"
+
+msgid "amount of red channel in the output channel"
+msgstr "輸出通道中紅色通道的應用量"
+
+msgid "amount of green channel in the output channel"
+msgstr "輸出通道中綠色通道的應用量"
+
+msgid "amount of blue channel in the output channel"
+msgstr "輸出通道中藍色通道的應用量"
+
+msgid "swap R and B"
+msgstr "對調 紅和藍"
+
+msgid "swap G and B"
+msgstr "對調 綠和藍"
+
+msgid "color contrast boost"
+msgstr "色彩對比增加"
+
+msgid "color details boost"
+msgstr "色彩細節增加"
+
+msgid "color artifacts boost"
+msgstr "色彩偽影增加"
+
+msgid "b/w"
+msgstr "b/w"
+
+msgid "b/w artifacts boost"
+msgstr "b/w 偽影增加"
+
+msgid "b/w smooth skin"
+msgstr "b/w 平滑皮膚"
+
+msgid "b/w blue artifacts reduce"
+msgstr "b/w 藍色偽影減小"
+
+msgid "amount"
+msgstr "總量"
+
+msgid "size of features to preserve"
+msgstr "保持特性大小"
+
+msgid "strength of the effect"
+msgstr "效果的力度"
+
+msgid "crop and rotate"
+msgstr "裁剪和旋轉"
+
+msgid "invalid ratio format. it should be \"number:number\""
+msgstr "非法的比例格式.應該是 \"數字:數字\""
+
+msgid "vertical"
+msgstr "垂直"
+
+msgid "horizontal"
+msgstr "水平"
+
+msgid "full"
+msgstr "1/1"
+
+msgid "old system"
+msgstr "舊系統"
+
+msgid "correction applied"
+msgstr "已應用的校正"
+
+msgid "flip"
+msgstr "翻轉"
+
+msgid "both"
+msgstr "兩者"
+
+msgid "mirror image horizontally and/or vertically"
+msgstr "鏡像影像水平和/或垂直"
+
+msgid "angle"
+msgstr "角度"
+
+msgid "right-click and drag a line on the image to drag a straight line"
+msgstr "右擊在影像上拖綫可以得到一條直線"
+
+msgid "keystone"
+msgstr "梯形校正"
+
+msgid "set perspective correction for your image"
+msgstr "為您的影像設置透視校正"
+
+msgid "automatic cropping"
+msgstr "自動裁剪"
+
+msgid "no"
+msgstr "否"
+
+msgid "yes"
+msgstr "是"
+
+msgid "automatically crop to avoid black edges"
+msgstr "自動裁剪以避免黑邊"
+
+msgid "free"
+msgstr "自由"
+
+msgid "1:2"
+msgstr "1:2"
+
+msgid "7:5"
+msgstr "7:5"
+
+msgid "5:4"
+msgstr "5:4"
+
+msgid "16:10"
+msgstr "16:10"
+
+msgid "10:8 in print"
+msgstr "列印(10:8)"
+
+msgid "set the aspect ratio (w:h)"
+msgstr "設置寬高比(w:h)"
+
+msgid "guides"
+msgstr "參考綫"
+
+msgid "grid"
+msgstr "格線"
+
+msgid "rules of thirds"
+msgstr "三分法"
+
+msgid "diagonal method"
+msgstr "對角線方法"
+
+msgid "harmonious triangles"
+msgstr "對稱三角形"
+
+msgid "golden mean"
+msgstr "黃金比例"
+
+msgid "display guide lines to help compose your photograph"
+msgstr "顯示參考綫來幫助構成圖片"
+
+msgid "horizontally"
+msgstr "水平地"
+
+msgid "vertically"
+msgstr "垂直地"
+
+msgid "flip guides"
+msgstr "翻轉參考綫"
+
+msgid "extra"
+msgstr "額外的"
+
+msgid "golden sections"
+msgstr "黃金分割部分"
+
+msgid "golden spiral sections"
+msgstr "黃金螺線分割"
+
+msgid "golden spiral"
+msgstr "黃金螺線/等角螺線"
+
+msgid "all"
+msgstr "全部"
+
+msgid "show some extra guides"
+msgstr "顯示額外的參考綫"
+
+msgctxt "accel"
+msgid "commit"
+msgstr "提交"
+
+msgctxt "accel"
+msgid "angle"
+msgstr "角度"
+
+msgid "color contrast"
+msgstr "色彩對比度"
+
+msgctxt "accel"
+msgid "green vs magenta"
+msgstr "綠 vs 洋紅"
+
+msgctxt "accel"
+msgid "blue vs yellow"
+msgstr "藍 vs 黃"
+
+msgid "green vs magenta"
+msgstr "綠 vs 洋紅"
+
+msgid "steepness of the a* curve in Lab"
+msgstr "Lab中 a* 曲綫的陡度"
+
+msgid "blue vs yellow"
+msgstr "藍 vs 黃"
+
+msgid "steepness of the b* curve in Lab"
+msgstr "Lab中 b* 曲綫的陡度"
+
+msgid "color correction"
+msgstr "色彩矯正"
+
+msgid "warming filter"
+msgstr "暖調濾鏡"
+
+msgid "cooling filter"
+msgstr "冷調濾鏡"
+
+msgctxt "accel"
+msgid "saturation"
+msgstr "飽和度"
+
+msgid ""
+"drag the line for split toning. bright means highlights, dark means shadows. "
+"use mouse wheel to change saturation."
+msgstr "拖曳色調分割線.明亮表示高亮, 黑表示陰影.使用滑鼠滾輪改變飽和度."
+
+msgid "set the global saturation"
+msgstr "設定全局飽和度"
+
+msgid "input color profile"
+msgstr "匯入色彩描述檔"
+
+msgid "unsupported input profile has been replaced by linear rgb!"
+msgstr "不支援此輸入檔案已經用 線性rgb取代!"
+
+msgid "embedded icc profile"
+msgstr "嵌入icc色彩描述檔"
+
+msgid "dng embedded matrix"
+msgstr "嵌入矩陣的dng"
+
+msgid "standard color matrix"
+msgstr "標準顏色矩陣"
+
+msgid "enhanced color matrix"
+msgstr "增強顏色矩陣"
+
+msgid "vendor color matrix"
+msgstr "供應商顏色矩陣"
+
+msgid "alternate color matrix"
+msgstr "備用顏色矩陣"
+
+msgid "sRGB (e.g. jpg)"
+msgstr "sRGB (例如jpg)"
+
+msgid "Adobe RGB (compatible)"
+msgstr "Adobe RGB (相容)"
+
+msgid "linear RGB"
+msgstr "線性RGB"
+
+msgid "linear infrared BGR"
+msgstr "線性紅外BGR"
+
+msgid "linear XYZ"
+msgstr "線性 XYZ"
+
+msgid "Lab"
+msgstr "Lab"
+
+msgid "profile"
+msgstr "描述檔"
+
+msgid "icc profiles in %s/color/in or %s/color/in"
+msgstr "icc 描述檔在 %s/color/in 或 %s/color/in"
+
+msgid "colorize"
+msgstr "彩色化"
+
+msgctxt "accel"
+msgid "lightness"
+msgstr "明度"
+
+msgctxt "accel"
+msgid "source mix"
+msgstr "來源混合"
+
+msgid "select tone color"
+msgstr "選擇色調的色彩"
+
+msgid "select the hue tone"
+msgstr "選擇色相的色調"
+
+msgid "select the saturation shadow tone"
+msgstr "選擇陰影色調的飽和度"
+
+msgid "source mix"
+msgstr "來源混合"
+
+msgid "lightness of color"
+msgstr "色彩明度"
+
+msgid "mix value of source lightness"
+msgstr "源明度的混合值"
+
+msgid "color mapping"
+msgstr "顏色映射"
+
+msgctxt "accel"
+msgid "acquire as source"
+msgstr "作為來源獲取"
+
+msgctxt "accel"
+msgid "acquire as target"
+msgstr "作為目標獲取"
+
+msgid "source clusters:"
+msgstr "來源集群:"
+
+msgid "target clusters:"
+msgstr "目標集群:"
+
+msgid "acquire as source"
+msgstr "作為來源獲取"
+
+msgid "analyze this image as a source image"
+msgstr "以此影像為源影像執行分析"
+
+msgid "acquire as target"
+msgstr "作為目標獲取"
+
+msgid "analyze this image as a target image"
+msgstr "以此影像為目標影像執行分析"
+
+msgid "number of clusters"
+msgstr "集群數"
+
+msgid "number of clusters to find in image. value change resets all clusters"
+msgstr "影像中發現的集群數量. 值的變化重置所有集群"
+
+msgid "color dominance"
+msgstr "顏色支配"
+
+msgid ""
+"how clusters are mapped. low values: based on color proximity, high values: "
+"based on color dominance"
+msgstr ""
+"設定集群如何映射. 低階值: 基于顏色近似(color proximity), 高階值: 基于顏色支配"
+"(color dominance)"
+
+msgid "histogram equalization"
+msgstr "直方圖均衡"
+
+msgid "level of histogram equalization"
+msgstr "直方圖均衡級別"
+
+msgid "output color profile"
+msgstr "匯出色彩描述檔"
+
+msgid "unsupported output profile has been replaced by sRGB!"
+msgstr "不支援的匯出色彩檔案用sRGB 替代了!"
+
+msgid "gamut check"
+msgstr "色域檢查"
+
+msgid "soft proof"
+msgstr "軟打樣(soft proof)"
+
+msgid "output intent"
+msgstr "輸出目的"
+
+msgid "perceptual"
+msgstr "可感知度"
+
+msgid "relative colorimetric"
+msgstr "相對色度"
+
+msgctxt "rendering intent"
+msgid "saturation"
+msgstr "飽和度"
+
+msgid "absolute colorimetric"
+msgstr "絶對色度"
+
+msgid "display intent"
+msgstr "顯示目的"
+
+msgid "output profile"
+msgstr "輸出配置"
+
+msgid "softproof profile"
+msgstr "軟打樣配置"
+
+msgid "display profile"
+msgstr "顯示配置"
+
+msgid "system display profile"
+msgstr "系統顯示配置"
+
+msgid "sRGB (web-safe)"
+msgstr "sRGB (網絡安全色)"
+
+msgid "rendering intent"
+msgstr "渲染目的"
+
+msgid "icc profiles in %s/color/out or %s/color/out"
+msgstr "在 %s/color/out 或 %s/color/out 的icc色彩描述檔"
+
+msgid "display icc profiles in %s/color/out or %s/color/out"
+msgstr "在 %s/color/out 或 %s/color/out 顯示icc色彩描述檔"
+
+msgid "softproof icc profiles in %s/color/out or %s/color/out"
+msgstr "在 %s/color/out 或 %s/color/out 的軟打樣icc色彩描述檔"
+
+msgctxt "accel"
+msgid "toggle softproofing"
+msgstr "切換軟打樣"
+
+msgctxt "accel"
+msgid "toggle gamutcheck"
+msgstr "切換色域檢查"
+
+msgid "color transfer"
+msgstr "顏色轉換"
+
+msgctxt "accel"
+msgid "acquire"
+msgstr "獲得"
+
+msgctxt "accel"
+msgid "apply"
+msgstr "應用"
+
+msgid ""
+"this module will be removed in the future\n"
+"and is only here so you can switch it off\n"
+"and move to the new color mapping module."
+msgstr ""
+"該模組未來將被移除\n"
+"請關掉該模組\n"
+"並使用新的\"顏色映射\"模組."
+
+msgid "number of clusters to find in image"
+msgstr "影像中發現的聚簇數量"
+
+msgid "acquire"
+msgstr "獲取"
+
+msgid "analyze this image"
+msgstr "分析該影像"
+
+msgid "apply"
+msgstr "應用"
+
+msgid "apply previously analyzed image look to this image"
+msgstr "應用之前分析的圖片概括到此圖皮"
+
+msgid "color zones"
+msgstr "色彩空間"
+
+msgid "red black white"
+msgstr "紅 黑 白"
+
+msgid "black white and skin tones"
+msgstr "黑白和皮膚色調"
+
+msgid "polarizing filter"
+msgstr "偏振濾光片"
+
+msgid "natural skin tones"
+msgstr "自然皮膚色調"
+
+msgid "black & white film"
+msgstr "黑白膠片"
+
+msgid "select by"
+msgstr "選擇于"
+
+msgid "choose selection criterion, will be the abscissa in the graph"
+msgstr "選擇 選取原則 作為圖中的橫坐標"
+
+msgid "demosaic"
+msgstr "去馬賽克"
+
+msgctxt "accel"
+msgid "edge threshold"
+msgstr "邊緣閾值"
+
+msgid "ppg (fast)"
+msgstr "ppg(快)"
+
+msgid "amaze (slow)"
+msgstr "amaze(慢)"
+
+msgid "method"
+msgstr "方法"
+
+msgid "demosaicing raw data method"
+msgstr "RAW影像去馬賽克方法"
+
+msgid ""
+"threshold for edge-aware median.\n"
+"set to 0.0 to switch off.\n"
+"set to 1.0 to ignore edges."
+msgstr ""
+"邊緣閥值中值\n"
+"0.0為關閉\n"
+"1.0為忽略邊緣."
+
+msgid "edge threshold"
+msgstr "邊緣閾值"
+
+msgid "color smoothing"
+msgstr "顏色平滑"
+
+msgid "one time"
+msgstr "一次"
+
+msgid "two times"
+msgstr "二次"
+
+msgid "three times"
+msgstr "三次"
+
+msgid "four times"
+msgstr "四次"
+
+msgid "five times"
+msgstr "五次"
+
+msgid "how many color smoothing median steps after demosaicing"
+msgstr "計數 去馬賽克 後 色彩平滑 的階數中位數"
+
+msgid "match greens"
+msgstr "匹配綠色"
+
+msgid "disabled"
+msgstr "不使用"
+
+msgid "local average"
+msgstr "局部平均"
+
+msgid "full average"
+msgstr "整體平均"
+
+msgid "full and local average"
+msgstr "整體和局部平均"
+
+msgid "green channels matching method"
+msgstr "綠色通道匹配方法"
+
+msgid "denoise (profiled)"
+msgstr "降噪(預置)"
+
+msgid "found match for iso %d"
+msgstr "找到 ISO %d 的匹配"
+
+msgid "interpolated from iso %d and %d"
+msgstr "由 iso% d 和% d 中插值"
+
+msgid "mode"
+msgstr "模式"
+
+msgid "patch size"
+msgstr "塊大小"
+
+msgid "non-local means"
+msgstr "非局部均值(non-local means)"
+
+msgid "wavelets"
+msgstr "小波"
+
+msgid "profile used for variance stabilization"
+msgstr "用於variance stabilization 的設定檔"
+
+msgid ""
+"method used in the denoising core. non-local means works best for "
+"`lightness' blending, wavelets work best for `color' blending"
+msgstr ""
+"核心採用的降噪方法.非局部均值對於\"亮度\"渲染作用最好, 小波對於\"顏色\"渲染效"
+"果最好"
+
+msgid "radius of the patches to match. increase for more sharpness"
+msgstr "匹配的塊半徑, 調高將增強鋭化"
+
+msgid "finetune denoising strength"
+msgstr "調整降噪強度"
+
+msgid "dithering"
+msgstr "抖動(dithering)"
+
+msgid "dither"
+msgstr "抖動(dither)"
+
+msgid "random"
+msgstr "隨機"
+
+msgid "floyd-steinberg 1-bit b&w"
+msgstr "floyd-steinberg 1-bit b&w"
+
+msgid "floyd-steinberg 4-bit gray"
+msgstr "floyd-steinberg 4-bit gray"
+
+msgid "floyd-steinberg 8-bit rgb"
+msgstr "floyd-steinberg 8-bit rgb"
+
+msgid "floyd-steinberg 16-bit rgb"
+msgstr "floyd-steinberg 16-bit rgb"
+
+msgid "floyd-steinberg auto"
+msgstr "floyd-steinberg自動"
+
+msgid "radius for blurring step"
+msgstr "模糊半徑"
+
+msgid "the gradient range where to apply random dither"
+msgstr "應用隨機抖動時的漸變範圍"
+
+msgid "gradient range"
+msgstr "漸變範圍"
+
+msgid "damping level of random dither"
+msgstr "隨機抖動的阻尼(damping level)"
+
+msgid "damping"
+msgstr "阻尼(damping)"
+
+msgid "legacy equalizer"
+msgstr "遺留的均衡器"
+
+msgctxt "equalizer"
+msgid "sharpen"
+msgstr "鋭化 [均衡器]"
+
+msgid "null"
+msgstr "null"
+
+msgid ""
+"this module will be removed in the future\n"
+"and is only here so you can switch it off\n"
+"and move to the new equalizer."
+msgstr ""
+"該模組未來將被移除\n"
+"請關掉該模組\n"
+"並使用新的均衡器."
+
+msgctxt "accel"
+msgid "black"
+msgstr "黑"
+
+msgctxt "accel"
+msgid "exposure"
+msgstr "曝光"
+
+msgctxt "accel"
+msgid "auto-exposure"
+msgstr "自動曝光"
+
+msgid "adjust the black level"
+msgstr "適應黑色色階"
+
+msgid "black"
+msgstr "黑色"
+
+msgid "adjust the exposure correction"
+msgstr "曝光校正"
+
+msgid "percentage of bright values clipped out"
+msgstr "亮值裁剪的百分比"
+
+msgid "flip horizontally"
+msgstr "水平翻轉"
+
+msgid "flip vertically"
+msgstr "垂直翻轉"
+
+msgid "rotate by -90"
+msgstr "旋轉-90度"
+
+msgid "rotate by  90"
+msgstr "旋轉90度"
+
+msgid "rotate by 180"
+msgstr "旋轉180度"
+
+msgid "rotate"
+msgstr "旋轉"
+
+msgid "rotate 90 degrees ccw"
+msgstr "逆時針旋轉90度"
+
+msgid "rotate 90 degrees cw"
+msgstr "順時針旋轉90度"
+
+msgctxt "accel"
+msgid "rotate 90 degrees ccw"
+msgstr "逆時針旋轉90度"
+
+msgctxt "accel"
+msgid "rotate 90 degrees cw"
+msgstr "順時針旋轉90度"
+
+msgctxt "modulename"
+msgid "gamma"
+msgstr "伽馬"
+
+msgid "global tonemap"
+msgstr "全局色調映射"
+
+msgid "operator"
+msgstr "操作"
+
+msgid "the global tonemap operator"
+msgstr "全局色調映射操作"
+
+msgid "bias"
+msgstr "偏差"
+
+msgid ""
+"the bias for tonemapper controls the linearity, the higher the more details "
+"in blacks"
+msgstr "色調映射器的偏差為線性, 越高則越多細節位於黑色區域"
+
+msgid "target"
+msgstr "目標"
+
+msgid "the target light for tonemapper specified as cd/m2"
+msgstr "色調映射器的明度單位為cd/m2"
+
+msgid "neutral grey ND2 (soft)"
+msgstr "中性灰ND2(軟)"
+
+msgid "neutral grey ND4 (soft)"
+msgstr "中性灰ND4(軟)"
+
+msgid "neutral grey ND8 (soft)"
+msgstr "中性灰ND8(軟)"
+
+msgid "neutral grey ND2 (hard)"
+msgstr "中性灰ND2(硬)"
+
+msgid "neutral grey ND4 (hard)"
+msgstr "中性灰ND4(硬)"
+
+msgid "neutral grey ND8 (hard)"
+msgstr "中性灰ND8(硬)"
+
+msgid "orange ND2 (soft)"
+msgstr "橘紅色ND2(軟)"
+
+msgid "yellow ND2 (soft)"
+msgstr "黃色ND2(黃)"
+
+msgid "purple ND2 (soft)"
+msgstr "紫色ND2(軟)"
+
+msgid "green ND2 (soft)"
+msgstr "綠色ND2(軟)"
+
+msgid "red ND2 (soft)"
+msgstr "紅色ND2(軟)"
+
+msgid "blue ND2 (soft)"
+msgstr "藍色ND2(軟)"
+
+msgid "brown ND4 (soft)"
+msgstr "灰色ND4(軟)"
+
+msgid "graduated density"
+msgstr "漸變密度"
+
+msgctxt "accel"
+msgid "density"
+msgstr "密度"
+
+msgctxt "accel"
+msgid "compression"
+msgstr "壓縮"
+
+msgid "density"
+msgstr "密度"
+
+msgid "the density in ev for the filter"
+msgstr "濾波器的密度(ev)"
+
+msgid "compression"
+msgstr "壓縮"
+
+msgid ""
+"compression of graduation:\n"
+"0% = soft, 100% = hard"
+msgstr "壓縮等級0%=軟 100%=硬"
+
+msgid "rotation"
+msgstr "旋轉"
+
+msgid "rotation of filter -180 to 180 degrees"
+msgstr "濾波器可旋轉角度 -180—180度"
+
+msgid "select the hue tone of filter"
+msgstr "選擇濾波器的色調"
+
+msgid "select the saturation of filter"
+msgstr "選擇濾波器的飽和度"
+
+msgid "grain"
+msgstr "顆粒"
+
+msgctxt "accel"
+msgid "coarseness"
+msgstr "粗糙度"
+
+msgid "the grain size (~iso of the film)"
+msgstr "顆粒大小(膠片的ISO感光度)"
+
+msgid "the strength of applied grain"
+msgstr "應用顆粒的力度"
+
+msgid "highlight reconstruction"
+msgstr "高亮修復"
+
+msgid "clip highlights"
+msgstr "截取高亮"
+
+msgid "reconstruct in LCh"
+msgstr "重建LCh"
+
+msgid "highlight reconstruction method"
+msgstr "高亮修復方法"
+
+msgid ""
+"manually adjust the clipping threshold against magenta highlights (you "
+"shouldn't ever need to touch this)"
+msgstr "手動調整粉色高亮的限幅閾值(你永遠不該改變此項)"
+
+msgid "clipping threshold"
+msgstr "限幅閾值"
+
+msgid "highpass"
+msgstr "高通濾鏡"
+
+msgctxt "accel"
+msgid "sharpness"
+msgstr "銳利度"
+
+msgctxt "accel"
+msgid "contrast boost"
+msgstr "對比度提升"
+
+msgid "the sharpness of highpass filter"
+msgstr "高通濾鏡的鋭度"
+
+msgid "contrast boost"
+msgstr "對比度提升"
+
+msgid "the contrast of highpass filter"
+msgstr "高通濾鏡的對比度"
+
+msgid "hot pixels"
+msgstr "熱像素"
+
+msgid "fixed %d pixels"
+msgstr "修復了 %d 個像素"
+
+msgid "lower threshold for hot pixel"
+msgstr "減小熱像素的閾值"
+
+msgid "strength of hot pixel correction"
+msgstr "熱像素校正力度"
+
+msgid "detect by 3 neighbours"
+msgstr "由3個隔鄰點修正"
+
+msgid "mark fixed pixels"
+msgstr "標記修復的像素"
+
+msgid "invert"
+msgstr "反轉"
+
+msgctxt "accel"
+msgid "pick color of film material from image"
+msgstr "從影像中選取膠片材料的顏色"
+
+msgid "select color of film material"
+msgstr "選擇膠片材料的顏色"
+
+msgid "color of film material"
+msgstr "膠片材料的顏色"
+
+msgid "pick color of film material from image"
+msgstr "從影像中選取膠片材料的顏色"
+
+msgid "lens correction"
+msgstr "鏡頭矯正"
+
+msgctxt "accel"
+msgid "scale"
+msgstr "縮放"
+
+msgctxt "accel"
+msgid "tca R"
+msgstr "tca R"
+
+msgctxt "accel"
+msgid "tca B"
+msgstr "tca B"
+
+msgctxt "accel"
+msgid "find camera"
+msgstr "尋找相機"
+
+msgctxt "accel"
+msgid "find lens"
+msgstr "尋找鏡頭"
+
+msgctxt "accel"
+msgid "auto scale"
+msgstr "自動縮放"
+
+msgctxt "accel"
+msgid "camera model"
+msgstr "相機型號"
+
+msgctxt "accel"
+msgid "lens model"
+msgstr "鏡頭型號"
+
+msgctxt "accel"
+msgid "select corrections"
+msgstr "選擇修正方式"
+
+msgid ""
+"maker:\t\t%s\n"
+"model:\t\t%s%s\n"
+"mount:\t\t%s\n"
+"crop factor:\t%.1f"
+msgstr ""
+"作者:\t\t%s\n"
+"型號:\t\t%s%s\n"
+"掛載:\t\t%s\n"
+"裁切係數:\t%.1f"
+
+msgid "camera/lens not found - please select manually"
+msgstr "未找到 相機 / 鏡頭 - 請手動選擇"
+
+msgid "try to locate your camera/lens in the above two menus"
+msgstr "請嘗試在上面的兩個功能表中找到您的相機及鏡頭"
+
+msgid ""
+"maker:\t\t%s\n"
+"model:\t\t%s\n"
+"focal range:\t%s\n"
+"aperture:\t%s\n"
+"crop factor:\t%.1f\n"
+"type:\t\t%s\n"
+"mounts:\t\t%s"
+msgstr ""
+"製造商:\t\t%s\n"
+"型號:\t\t%s\n"
+"焦距:\t%s\n"
+"光圈:\t%s\n"
+"焦距轉換率:\t%.1f\n"
+"形式:\t\t%s\n"
+"接環:\t\t%s"
+
+msgid "mm"
+msgstr "mm 毫米"
+
+msgid "focal length (mm)"
+msgstr "鏡頭焦距 (mm)"
+
+msgid "f/"
+msgstr "f/"
+
+msgid "f-number (aperture)"
+msgstr "F值(光圈)"
+
+msgid "d"
+msgstr "d"
+
+msgid "distance to subject"
+msgstr "到主體的距離"
+
+msgid "distortion & TCA"
+msgstr "失真和橫向色差"
+
+msgid "distortion & vignetting"
+msgstr "失真和漸暈"
+
+msgid "TCA & vignetting"
+msgstr "橫向色差和漸暈"
+
+msgid "only distortion"
+msgstr "僅失真"
+
+msgid "only TCA"
+msgstr "僅橫向色差"
+
+msgid "only vignetting"
+msgstr "僅漸暈"
+
+msgid "find camera"
+msgstr "尋找相機"
+
+msgid "find lens"
+msgstr "尋找鏡頭"
+
+msgid "corrections"
+msgstr "修正方式"
+
+msgid "which corrections to apply"
+msgstr "應用的修正"
+
+msgid "geometry"
+msgstr "幾何校正"
+
+msgid "target geometry"
+msgstr "光學測量"
+
+msgid "rectilinear"
+msgstr "rectilinear 直線性"
+
+msgid "fish-eye"
+msgstr "魚眼(超廣角)"
+
+msgid "panoramic"
+msgstr "全景"
+
+msgid "equirectangular"
+msgstr "equirectangular 八邊多棱(用於球形全景圖)"
+
+msgid "orthographic"
+msgstr "正投影"
+
+msgid "stereographic"
+msgstr "立體攝影"
+
+msgid "equisolid angle"
+msgstr "等立體角(equisolid angle)"
+
+msgid "thoby fish-eye"
+msgstr "托比魚眼鏡頭"
+
+msgid "auto scale"
+msgstr "自動縮放"
+
+msgid "scale"
+msgstr "縮放"
+
+msgid "correct distortions or apply them"
+msgstr "修正失真或應用它們"
+
+msgid "correct"
+msgstr "修正"
+
+msgid "distort"
+msgstr "失真"
+
+msgid "transversal chromatic aberration red"
+msgstr "橫向色差紅色"
+
+msgid "tca red"
+msgstr "紅(橫向色差)"
+
+msgid "transversal chromatic aberration blue"
+msgstr "橫向色差藍色"
+
+msgid "tca blue"
+msgstr "藍(橫向色差)"
+
+msgid "corrections done: "
+msgstr "修正完成: "
+
+msgid "which corrections have actually been done"
+msgstr "已經完成的修正"
+
+msgid "levels"
+msgstr "色階"
+
+msgid ""
+"drag handles to set black, grey, and white points.  operates on L channel."
+msgstr "拖動滑塊設置黑色、棕色、白色點. 在L通道上操作."
+
+msgid "apply auto levels"
+msgstr "自動色階"
+
+msgid "pick blackpoint from image"
+msgstr "從影像中選取黑點"
+
+msgid "pick medium greypoint from image"
+msgstr "從影像中選取灰階區間中位點"
+
+msgid "pick whitepoint from image"
+msgstr "從影像中選取白點"
+
+msgid "lowlight vision"
+msgstr "低光成像"
+
+msgctxt "accel"
+msgid "blue shift"
+msgstr "藍移"
+
+msgid "daylight"
+msgstr "日光"
+
+msgid "indoor bright"
+msgstr "室內: 明亮"
+
+msgid "indoor dim"
+msgstr "室內: 陰暗"
+
+msgid "indoor dark"
+msgstr "室內: 黑暗"
+
+msgid "twilight"
+msgstr "夜幕"
+
+msgid "night street lit"
+msgstr "夜景: 街燈"
+
+msgid "night street"
+msgstr "夜景: 街道"
+
+msgid "night street dark"
+msgstr "夜景: 黑暗街道"
+
+msgid "night"
+msgstr "夜"
+
+msgid "dark"
+msgstr "黑暗"
+
+msgid "bright"
+msgstr "亮處"
+
+msgid "day vision"
+msgstr "日間成像"
+
+msgid "night vision"
+msgstr "夜間成像"
+
+msgid "blue shift"
+msgstr "藍移"
+
+msgid "blueness in shadows"
+msgstr "發藍陰影"
+
+msgid "lowpass"
+msgstr "低通濾鏡"
+
+msgctxt "accel"
+msgid "contrast"
+msgstr "對比度"
+
+msgid "local contrast mask"
+msgstr "局部對比遮罩"
+
+msgid "filter order"
+msgstr "濾鏡階數"
+
+msgid "0th order"
+msgstr "0階"
+
+msgid "1st order"
+msgstr "1階"
+
+msgid "2nd order"
+msgstr "2階"
+
+msgid "filter order of gaussian blur"
+msgstr "高斯模糊過濾階數"
+
+msgid "soften with"
+msgstr "柔化"
+
+msgid "gaussian"
+msgstr "高斯"
+
+msgid "bilateral filter"
+msgstr "降噪(雙邊濾波)"
+
+msgid "radius of gaussian/bilateral blur"
+msgstr "高斯(雙邊)模糊半徑"
+
+msgid "contrast of lowpass filter"
+msgstr "低通濾鏡的對比度"
+
+msgid "color saturation of lowpass filter"
+msgstr "低通濾鏡的顏色飽和度"
+
+msgid "which filter to use for blurring"
+msgstr "模糊使用的濾鏡"
+
+msgid "monochrome"
+msgstr "單色"
+
+msgid "red filter"
+msgstr "紅色濾鏡"
+
+msgid "drag and scroll mouse wheel to adjust the virtual color filter"
+msgstr "拖動並滾動滑鼠滾輪調整虛擬色彩濾鏡"
+
+msgid "how much to keep highlights"
+msgstr "保持高亮的數量"
+
+msgid "highlights"
+msgstr "高亮"
+
+msgid "denoise (non-local means)"
+msgstr "去噪點(非局部均)"
+
+msgctxt "accel"
+msgid "luma"
+msgstr "亮度(luma)"
+
+msgctxt "accel"
+msgid "chroma"
+msgstr "色度(chroma)"
+
+msgid "radius of the patches to match"
+msgstr "匹配的塊半徑"
+
+msgid "how much to smooth brightness"
+msgstr "平滑亮度的程度"
+
+msgid "how much to smooth colors"
+msgstr "平滑色彩的程度"
+
+msgid "overexposed"
+msgstr "曝光過度"
+
+msgid "unbreak input profile"
+msgstr "修復輸入配置"
+
+msgid "linear"
+msgstr "線性"
+
+msgid "linear part"
+msgstr "線性部分"
+
+msgid "gamma"
+msgstr "伽馬"
+
+msgid "gamma exponential factor"
+msgstr "伽馬指數因子"
+
+msgid "raw denoise"
+msgstr "RAW降噪"
+
+msgctxt "accel"
+msgid "noise threshold"
+msgstr "噪點閾值"
+
+msgid "noise threshold"
+msgstr "噪點閾值"
+
+msgid "fill-light 0.25EV with 4 zones"
+msgstr "4區域曝光補償 0.25EV"
+
+msgid "fill-shadow -0.25EV with 4 zones"
+msgstr "4區域陰影補償 -0.25EV"
+
+msgid "fill light"
+msgstr "曝光補償"
+
+msgctxt "accel"
+msgid "width"
+msgstr "寬度"
+
+msgid "the fill-light in EV"
+msgstr "曝光補償(EV)"
+
+msgid "width"
+msgstr "寬度"
+
+msgid "width of fill-light area defined in zones"
+msgstr "補光區域寬度"
+
+msgid "select the center of fill-light"
+msgstr "選擇曝光補償的中心位置"
+
+msgid "toggle tool for picking median lightness in image"
+msgstr "用於選取影像明度中值的切換工具"
+
+msgid "shadows and highlights"
+msgstr "陰影和高亮"
+
+msgctxt "accel"
+msgid "shadows"
+msgstr "陰影"
+
+msgctxt "accel"
+msgid "highlights"
+msgstr "高亮"
+
+msgctxt "accel"
+msgid "compress"
+msgstr "壓縮"
+
+msgctxt "accel"
+msgid "shadows color correction"
+msgstr "陰影色彩修正"
+
+msgctxt "accel"
+msgid "highlights color correction"
+msgstr "高亮色彩修正"
+
+msgid "shadows"
+msgstr "陰影"
+
+msgid "compress"
+msgstr "壓縮"
+
+msgid "shadows color adjustment"
+msgstr "陰影顏色調整"
+
+msgid "highlights color adjustment"
+msgstr "高亮色彩調整"
+
+msgid "correct shadows"
+msgstr "修正陰影"
+
+msgid "correct highlights"
+msgstr "修正高亮"
+
+msgid "spatial extent"
+msgstr "空間範圍"
+
+msgid "filter to use for softening. bilateral avoids halos"
+msgstr "柔化使用的濾鏡.雙邊避免光暈"
+
+msgid ""
+"compress the effect on shadows/highlights and\n"
+"preserve midtones"
+msgstr ""
+"壓縮在高亮/陰影處的效果\n"
+"並保留中間色調"
+
+msgid "adjust saturation of shadows"
+msgstr "調整陰影的飽和度"
+
+msgid "adjust saturation of highlights"
+msgstr "調整高亮的飽和度"
+
+msgctxt "sharpen"
+msgid "sharpen"
+msgstr "鋭化"
+
+msgid "sharpen"
+msgstr "鋭化"
+
+msgctxt "accel"
+msgid "amount"
+msgstr "應用量"
+
+msgid "spatial extent of the unblurring"
+msgstr "去模糊的空間範圍"
+
+msgid "strength of the sharpen"
+msgstr "鋭化力度"
+
+msgid "threshold to activate sharpen"
+msgstr "啟用鋭化閥值"
+
+msgid "soften"
+msgstr "柔化"
+
+msgctxt "accel"
+msgid "brightness"
+msgstr "亮度"
+
+msgid "the size of blur"
+msgstr "模糊尺寸"
+
+msgid "the saturation of blur"
+msgstr "模糊的飽和度"
+
+msgid "brightness"
+msgstr "亮度"
+
+msgid "the brightness of blur"
+msgstr "亮度模糊"
+
+msgid "the mix of effect"
+msgstr "混合效果"
+
+msgid "split toning"
+msgstr "分割色調"
+
+msgctxt "accel"
+msgid "pick primary color"
+msgstr "選取首要顏色"
+
+msgctxt "accel"
+msgid "pick secondary color"
+msgstr "選取次要顏色"
+
+msgctxt "accel"
+msgid "balance"
+msgstr "平衡"
+
+msgid "authentic sepia"
+msgstr "懷舊照片褪色效果"
+
+msgid "authentic cyanotype"
+msgstr "懷舊藍印色效果"
+
+msgid "authentic platinotype"
+msgstr "懷舊單色效果"
+
+msgid "chocolate brown"
+msgstr "巧克力棕"
+
+msgid "select the saturation tone"
+msgstr "選擇飽和度色調"
+
+msgid "balance"
+msgstr "平衡"
+
+msgid "the balance of center of splittoning"
+msgstr "分割中心的平衡"
+
+msgid ""
+"compress the effect on highlighs/shadows and\n"
+"preserve midtones"
+msgstr ""
+"壓縮高亮/陰影處的效果\n"
+"並保留中間色調"
+
+msgid "spot removal"
+msgstr "去污點"
+
+msgid "number of strokes:"
+msgstr "筆畫數目:"
+
+msgctxt "modulename"
+msgid "white balance"
+msgstr "白平衡"
+
+msgctxt "accel"
+msgid "tint"
+msgstr "色調"
+
+msgctxt "accel"
+msgid "temperature"
+msgstr "色溫"
+
+msgid "camera white balance"
+msgstr "相機白平衡"
+
+msgid "spot white balance"
+msgstr "點白平衡"
+
+msgid "passthrough"
+msgstr "直通"
+
+msgid "tint"
+msgstr "色調"
+
+msgid "temperature"
+msgstr "色溫"
+
+msgid "choose white balance preset from camera"
+msgstr "選擇相機白平衡預置"
+
+msgid "finetune"
+msgstr "微調"
+
+msgid "%.0f mired"
+msgstr "%.0f 微倒度(色溫單位)"
+
+msgid "fine tune white balance preset"
+msgstr "微調白平衡預置"
+
+msgid "tone curve"
+msgstr "色調曲綫"
+
+msgid "low contrast"
+msgstr "低對比度"
+
+msgid "med contrast"
+msgstr "中對比度"
+
+msgid "high contrast"
+msgstr "高對比度"
+
+msgid "  L  "
+msgstr "  L  "
+
+msgid "tonecurve for L channel"
+msgstr "L通道色調曲綫"
+
+msgid "  a  "
+msgstr "  a  "
+
+msgid "tonecurve for a channel"
+msgstr "a通道色調曲綫"
+
+msgid "  b  "
+msgstr "  b  "
+
+msgid "tonecurve for b channel"
+msgstr "b通道色調曲綫"
+
+msgid "double click to reset curve"
+msgstr "雙擊重置曲綫"
+
+msgid "scale chroma"
+msgstr "色標度"
+
+msgid "manual"
+msgstr "手動"
+
+msgid ""
+"if set to auto, a and b curves have no effect and are not displayed. chroma "
+"values (a and b) of each pixel are then adjusted based on L curve data."
+msgstr ""
+"如果啟用本項目, a和b曲綫將無效並且不再顯示.每個像素的色度值(a和b)基于L曲綫數"
+"據自動調整."
+
+msgid "tone mapping"
+msgstr "色調映射"
+
+msgctxt "accel"
+msgid "contrast compression"
+msgstr "對比度壓縮"
+
+msgctxt "accel"
+msgid "spatial extent"
+msgstr "空間範圍"
+
+msgid "contrast compression"
+msgstr "對比度壓縮"
+
+msgid "velvia"
+msgstr "velvia反轉片"
+
+msgctxt "accel"
+msgid "vibrance"
+msgstr "自然飽和度(vibrance)"
+
+msgctxt "accel"
+msgid "mid-tones bias"
+msgstr "中間色調偏差"
+
+msgid "the strength of saturation boost"
+msgstr "飽和度增加的力度"
+
+msgid "mid-tones bias"
+msgstr "中間調偏色"
+
+msgid "how much to spare highlights and shadows"
+msgstr "高亮和陰影的量"
+
+msgid "vibrance"
+msgstr "自然飽和度"
+
+msgid "the amount of vibrance"
+msgstr "自然飽和的量"
+
+msgid "vignetting"
+msgstr "暗角"
+
+msgctxt "accel"
+msgid "fall-off strength"
+msgstr "減小力度"
+
+msgctxt "accel"
+msgid "horizontal center"
+msgstr "水平中心"
+
+msgctxt "accel"
+msgid "vertical center"
+msgstr "垂直中心"
+
+msgctxt "accel"
+msgid "shape"
+msgstr "形狀"
+
+msgctxt "accel"
+msgid "width-height ratio"
+msgstr "寬高比例"
+
+msgctxt "accel"
+msgid "dithering"
+msgstr "抖動(dithering)"
+
+msgid "automatic ratio"
+msgstr "自動比例"
+
+msgid "automatic"
+msgstr "自動化"
+
+msgid "8-bit output"
+msgstr "8位元輸出"
+
+msgid "16-bit output"
+msgstr "16位元輸出"
+
+msgid "fall-off strength"
+msgstr "光衰減力度"
+
+msgid "horizontal center"
+msgstr "水平中心"
+
+msgid "vertical center"
+msgstr "垂直中心"
+
+msgid "shape"
+msgstr "形狀"
+
+msgid "width/height ratio"
+msgstr "寬/高比例"
+
+msgid "the radii scale of vignette for start of fall-off"
+msgstr "暗角影像起始光衰減的比例半徑"
+
+msgid "the radii scale of vignette for end of fall-off"
+msgstr "暗角影像結束光衰減的比例半徑"
+
+msgid "strength of effect on brightness"
+msgstr "亮度效果的力度"
+
+msgid "strength of effect on saturation"
+msgstr "飽和度效果的力度"
+
+msgid "horizontal offset of center of the effect"
+msgstr "效果中心的橫向偏移量"
+
+msgid "vertical offset of center of the effect"
+msgstr "效果中心的縱向偏移量"
+
+msgid ""
+"shape factor\n"
+"0 produces a rectangle\n"
+"1 produces a circle or elipse\n"
+"2 produces a diamond"
+msgstr ""
+"形狀係數\n"
+"0 產生長方形\n"
+"1 產生環或橢圓\n"
+"2 產生菱形"
+
+msgid "enable to have the ratio automatically follow the image size"
+msgstr "啟用以隨圖片尺寸自動調整比例"
+
+msgid "width-to-height ratio"
+msgstr "寬高比例"
+
+msgid "add some level of random noise to prevent banding"
+msgstr "添加一定程度的隨機雜訊, 以防止疊紋"
+
+msgid "watermark"
+msgstr "水印"
+
+msgctxt "accel"
+msgid "refresh"
+msgstr "更新"
+
+msgctxt "accel"
+msgid "opacity"
+msgstr "透明度"
+
+msgctxt "accel"
+msgid "x offset"
+msgstr "x水平偏移"
+
+msgctxt "accel"
+msgid "y offset"
+msgstr "y垂直偏移"
+
+msgid "marker"
+msgstr "標記"
+
+msgid "alignment"
+msgstr "對齊"
+
+msgid "larger border"
+msgstr "粗邊框"
+
+msgid "smaller border"
+msgstr "細邊框"
+
+msgid "scale on"
+msgstr "縮放"
+
+msgid "size is relative to"
+msgstr "大小是相對於"
+
+msgid "x offset"
+msgstr "x 偏移 水平偏移"
+
+msgid "y offset"
+msgstr "y 偏移 垂直偏移"
+
+msgid "the opacity of the watermark"
+msgstr "水印的透明度"
+
+msgid "the scale of the watermark"
+msgstr "水印的尺寸"
+
+msgid "Daylight"
+msgstr "日光"
+
+msgid "Direct sunlight"
+msgstr "日光直射"
+
+msgid "Cloudy"
+msgstr "多雲"
+
+msgid "Shade"
+msgstr "陰影"
+
+msgid "Incandescent"
+msgstr "白熾燈"
+
+msgid "Incandescent warm"
+msgstr "暖白熾燈"
+
+msgid "Tungsten"
+msgstr "鎢絲燈"
+
+msgid "Fluorescent"
+msgstr "螢光燈"
+
+msgid "Fluorescent high"
+msgstr "螢光燈H"
+
+msgid "Cool white fluorescent"
+msgstr "冷白螢光燈"
+
+msgid "Warm white fluorescent"
+msgstr "暖白螢光燈"
+
+msgid "Daylight fluorescent"
+msgstr "日光燈"
+
+msgid "Neutral fluorescent"
+msgstr "中性螢光燈"
+
+msgid "White fluorescent"
+msgstr "白螢光燈"
+
+msgid "Sodium-vapor fluorescent"
+msgstr "鈉蒸氣螢光燈"
+
+msgid "Day white fluorescent"
+msgstr "晝白螢光燈"
+
+msgid "High temp. mercury-vapor fluorescent"
+msgstr "高溫汞蒸氣螢光燈"
+
+msgid "Flash"
+msgstr "閃光"
+
+msgid "Flash (auto mode)"
+msgstr "閃光(自動)"
+
+msgid "Evening sun"
+msgstr "夕陽"
+
+msgid "Underwater"
+msgstr "水下"
+
+msgid "Black & white"
+msgstr "黑白"
+
+msgid "Manual WB"
+msgstr "手動白平衡"
+
+msgid "Camera WB"
+msgstr "相機白平衡"
+
+msgid "Auto WB"
+msgstr "自動白平衡"
+
+msgid "zone system"
+msgstr "明度分區系統"
+
+msgid ""
+"lightness zones\n"
+"use mouse scrollwheel to change the number of zones\n"
+"left-click on a border to create a marker\n"
+"right-click on a marker to delete it"
+msgstr ""
+"明度區域\n"
+"使用滑鼠滾輪改變區域數量\n"
+"在邊框左擊建立一個標記\n"
+"右擊標記刪除"
+
+msgid "background jobs"
+msgstr "後台作業"
+
+msgid "camera settings"
+msgstr "相機設置"
+
+msgctxt "accel"
+msgid "capture image(s)"
+msgstr "捕捉影像"
+
+msgid "toggle view property in center view"
+msgstr "切換至中心視角檢視"
+
+msgid "connection with camera lost, exiting tethering mode"
+msgstr "失去與相機的連接, 退出連機拍攝模式"
+
+msgid "battery"
+msgstr "電池"
+
+msgid "n/a"
+msgstr "無"
+
+msgid "camera control"
+msgstr "相機控制"
+
+msgid "modes"
+msgstr "模式"
+
+msgid "timer (s)"
+msgstr "定時(秒)"
+
+msgid "count"
+msgstr "統計"
+
+msgid "brackets"
+msgstr "包圍曝光"
+
+msgid "bkt. steps"
+msgstr "包圍曝光步級"
+
+msgid "capture image(s)"
+msgstr "拍攝圖片"
+
+msgid "toggle delayed capture mode"
+msgstr "切換延遲拍攝模式"
+
+msgid "toggle sequenced capture mode"
+msgstr "切換連續拍攝模式"
+
+msgid "toggle bracketed capture mode"
+msgstr "切換包圍曝光拍攝模式"
+
+msgid "the count of seconds before actually doing a capture"
+msgstr "實際拍照前等待秒數"
+
+msgid ""
+"the amount of images to capture in a sequence,\n"
+"you can use this in conjunction with delayed mode to create stop-motion "
+"sequences."
+msgstr ""
+"要捕捉的影像序列數,\n"
+"您可以將此功能與延遲模式共同使用來創造定格動畫."
+
+msgid ""
+"the amount of brackets on each side of centered shoot, amount of images = "
+"(brackets*2)+1."
+msgstr "中心影像每邊的包圍曝光數量.得到相片總數 = (包圍曝光量數*2)+1."
+
+msgid ""
+"the amount of steps per bracket, steps is camera configurable and usally 3 "
+"steps per stop\n"
+"with other words, 3 steps is 1EV exposure step between brackets."
+msgstr ""
+"包圍曝光步級, 步級是相機中可設置的, 通常每級3步\n"
+"也就是說, 在兩次包圍曝光之間1EV曝光步為3步."
+
+msgid "properties"
+msgstr "屬性"
+
+msgid "program"
+msgstr "程序"
+
+msgid "focus mode"
+msgstr "對焦模式"
+
+msgid "shutterspeed2"
+msgstr "快門速度 2"
+
+msgid "shutterspeed"
+msgstr "快門速度"
+
+msgid "wb"
+msgstr "白平衡"
+
+msgid "additional properties"
+msgstr "額外屬性"
+
+msgid "label"
+msgstr "標識"
+
+msgid "property"
+msgstr "屬性"
+
+msgid "add user property"
+msgstr "添加使用者屬性"
+
+msgid "session"
+msgstr "session"
+
+msgid "filename"
+msgstr "檔案名"
+
+msgid "create"
+msgstr "建立"
+
+msgid ""
+"enter the pattern for retrieved images\n"
+"⚠\t$(SEQUENCE) is mandatory\n"
+"recognized variables:"
+msgstr ""
+"輸入檢索到的影像的模式⚠ \n"
+"\t$ (sequence) 是強制性的\n"
+"識別變數:"
+
+msgid "collect images"
+msgstr "採集圖片"
+
+msgid "search filmroll"
+msgstr "搜尋膠捲"
+
+msgid "Problem selecting new path for the filmroll in %s"
+msgstr "為 %s 中膠捲選擇新的路徑的問題"
+
+msgid "search filmroll..."
+msgstr "搜尋膠捲..."
+
+msgid "sync..."
+msgstr "同步..."
+
+msgid "remove..."
+msgstr "移除..."
+
+msgid "not altered"
+msgstr "沒有變動"
+
+msgid "local hdd"
+msgstr "本地硬碟"
+
+msgid "clear this rule"
+msgstr "清除規則"
+
+msgid "clear this rule or add new rules"
+msgstr "清除此規則或添加新規則"
+
+msgid "narrow down search"
+msgstr "縮小搜尋範圍"
+
+msgid "add more images"
+msgstr "添加更多圖片"
+
+msgid "exclude images"
+msgstr "排除圖片"
+
+msgid "change to: and"
+msgstr "改為: 添加"
+
+msgid "change to: or"
+msgstr "改為: 分別"
+
+msgid "change to: except"
+msgstr "改為: 排除"
+
+msgid "type your query, use `%' as wildcard"
+msgstr "輸入你的請求, 使用 `%' 作為未知替代"
+
+msgid "film roll"
+msgstr "膠捲"
+
+msgid "folders"
+msgstr "目錄"
+
+msgid "camera"
+msgstr "相機"
+
+msgid "tag"
+msgstr "標籤"
+
+msgid "date"
+msgstr "日期"
+
+msgid "time"
+msgstr "時間"
+
+msgid "history"
+msgstr "歷史"
+
+msgid "description"
+msgstr "描述訊息"
+
+msgid "creator"
+msgstr "拍攝者"
+
+msgid "publisher"
+msgstr "發佈者"
+
+msgid "rights"
+msgstr "權利"
+
+msgid "color picker"
+msgstr "取色工具"
+
+msgctxt "accel"
+msgid "add sample"
+msgstr "新增取樣"
+
+msgid "hover to highlight sample on canvas, click to lock sample"
+msgstr "在光標覆蓋的高亮樣本上點擊滑鼠鎖定"
+
+msgid "live samples"
+msgstr "線上樣本"
+
+msgid "point"
+msgstr "點"
+
+msgid "area"
+msgstr "區域"
+
+msgid "mean"
+msgstr "均值"
+
+msgid "min"
+msgstr "最小"
+
+msgid "max"
+msgstr "最大"
+
+msgid "rgb"
+msgstr "rgb"
+
+msgid "restrict histogram to selection"
+msgstr "限製為選擇部分的直方圖"
+
+msgid "display sample areas on image"
+msgstr "在影像上顯示樣品區域"
+
+msgid "history stack"
+msgstr "歷史記錄棧"
+
+msgid "open sidecar file"
+msgstr "打開附屬檔案"
+
+msgid "xmp sidecar files"
+msgstr "xmp 附屬檔案"
+
+msgid "all files"
+msgstr "全部檔案"
+
+msgid "error loading file '%s'"
+msgstr "讀取檔案出錯 '%s' "
+
+msgid ""
+"copy part history stack of\n"
+"first selected image (ctrl-shift-c)"
+msgstr ""
+"於歷史堆疊中\n"
+"複製第一個選取的影像 (ctrl-shift-c)"
+
+msgid "copy all"
+msgstr "全部複製"
+
+msgid ""
+"copy history stack of\n"
+"first selected image (ctrl-c)"
+msgstr ""
+"複製首先選中的圖片\n"
+"的歷史 (ctrl-c)"
+
+msgid "discard"
+msgstr "丟棄"
+
+msgid ""
+"discard history stack of\n"
+"all selected images"
+msgstr "丟棄所有選中圖片的更改歷史"
+
+msgid "paste"
+msgstr "貼上"
+
+msgid ""
+"paste part history stack to\n"
+"all selected images (ctrl-shift-v)"
+msgstr ""
+"於歷史堆疊中\n"
+"貼上所有選擇的影像 (ctrl-shift-v)"
+
+msgid "paste all"
+msgstr "全部貼上"
+
+msgid ""
+"paste history stack to\n"
+"all selected images (ctrl-v)"
+msgstr ""
+"貼上歷史記錄棧\n"
+"到全部選定的圖片 (ctrl-v)"
+
+msgid "append"
+msgstr "添加"
+
+msgid "overwrite"
+msgstr "覆蓋"
+
+msgid "how to handle existing history"
+msgstr "如何處理存在的歷史"
+
+msgid "load sidecar file"
+msgstr "載入附屬檔案"
+
+msgid ""
+"open an xmp sidecar file\n"
+"and apply it to selected images"
+msgstr ""
+"打開一個xmp附屬檔案\n"
+"並且應用到已選影像"
+
+msgid "write sidecar files"
+msgstr "寫入附屬檔案"
+
+msgid "write history stack and tags to xmp sidecar files"
+msgstr "將歷史記錄棧和標籤寫入xmp附屬檔案"
+
+msgctxt "accel"
+msgid "copy all"
+msgstr "複製所有"
+
+msgctxt "accel"
+msgid "copy"
+msgstr "複製"
+
+msgctxt "accel"
+msgid "discard"
+msgstr "丟棄"
+
+msgctxt "accel"
+msgid "paste all"
+msgstr "貼上所有"
+
+msgctxt "accel"
+msgid "paste"
+msgstr "貼上"
+
+msgctxt "accel"
+msgid "load sidecar files"
+msgstr "載入附屬檔案"
+
+msgctxt "accel"
+msgid "write sidecar files"
+msgstr "寫入附屬檔案"
+
+msgid "export selected"
+msgstr "匯出選中的"
+
+msgid "target storage"
+msgstr "匯出目的地"
+
+msgid "file format"
+msgstr "檔案格式"
+
+msgid "global options"
+msgstr "全局選項"
+
+msgid ""
+"maximum output width\n"
+"set to 0 for no scaling"
+msgstr ""
+"最大匯出寬度\n"
+"設為 0 防止縮放"
+
+msgid ""
+"maximum output height\n"
+"set to 0 for no scaling"
+msgstr ""
+"最大匯出高度\n"
+"設為 0 防止縮放"
+
+msgid "max size"
+msgstr "最大尺寸"
+
+msgid "x"
+msgstr "x"
+
+msgid "intent"
+msgstr "意圖"
+
+msgid "image settings"
+msgstr "影像設定"
+
+msgid "Adobe RGB"
+msgstr "Adobe RGB"
+
+msgid "output icc profiles in %s/color/out or %s/color/out"
+msgstr "匯出 icc 檔案到 %s/color/out 或 %s/color/out"
+
+msgid "style"
+msgstr "樣式"
+
+msgid "temporary style to append while exporting"
+msgstr "匯出時要追加的臨時樣式"
+
+msgid "export with current settings (ctrl-e)"
+msgstr "當前設定下匯出 (ctrl-e)"
+
+msgctxt "accel"
+msgid "export"
+msgstr "匯出"
+
+msgid "file manager"
+msgstr "檔案管理器"
+
+msgid ""
+"ls\t\t\t\t\tlist content of directory\n"
+"cd <dir>\t\t\tchange directory\n"
+"mkdir <dir>\t\t\tcreate directory\n"
+"mv <src> <dst>\tmove <src> to <dst>\n"
+"cp <src> <dst>\t\tcopy <src> to <dst>\n"
+"rm <file>\t\t\tdelete <file>\n"
+"rmdir <dir>\t\t\tdelete empty directory"
+msgstr ""
+"ls\t\t\t\t\t列出目錄內容\n"
+"cd <dir>\t\t\t更改目錄\n"
+"mkdir <dir>\t\t\t建立目錄\n"
+"mv <src> <dst>\t移動 <src> 到 <dst>\n"
+"cp <src> <dst>\t\t複製 <src> 到 <dst>\n"
+"rm <file>\t\t\t刪除 <file>\n"
+"rmdir <dir>\t\t\t刪除空目錄"
+
+msgid ""
+"enter the time shown on the selected picture\n"
+"format: hh:mm:ss"
+msgstr ""
+"輸入選中的照片上顯示的時間\n"
+"格式: hh:mm:ss"
+
+msgid "open gpx file"
+msgstr "打開gpx檔案"
+
+msgid "GPS Data Exchange Format"
+msgstr "GPS數據交換格式"
+
+msgid "camera time zone"
+msgstr "相機的時區"
+
+msgid ""
+"most cameras don't store the time zone in exif. give the correct time zone "
+"so the gpx data can be correctly matched"
+msgstr ""
+"大多數相機不在exif檔案中儲存時區.給予正確的時區, 這樣gpx數據能夠正確匹配"
+
+msgid "time offset"
+msgstr "時間偏移"
+
+msgid ""
+"time offset\n"
+"format: [+-]?[[hh:]mm:]ss"
+msgstr ""
+"時間偏移\n"
+"格式:  [+-]?[[hh:]mm:]ss"
+
+msgid "calculate the time offset from an image"
+msgstr "從影像中計算時間偏移"
+
+msgid "apply time offset to selected images"
+msgstr "選中的影像應用時間偏移"
+
+msgid "apply gpx track file"
+msgstr "應用gpx路徑檔案"
+
+msgid "parses a gpx file and updates location of selected images"
+msgstr "解析gpx檔案並更新所選影像的位置"
+
+msgid "histogram"
+msgstr "直方圖"
+
+msgid ""
+"drag to change exposure,\n"
+"doubleclick resets"
+msgstr ""
+"拖動以更改曝光, \n"
+"雙擊重置"
+
+msgid "set histogram mode to logarithmic"
+msgstr "設置直方圖為對數模式"
+
+msgid "set histogram mode to linear"
+msgstr "設置直方圖模式為線性"
+
+msgid "click to hide red channel"
+msgstr "單擊隱藏紅色通道"
+
+msgid "click to show red channel"
+msgstr "單擊顯示紅色通道"
+
+msgid "click to hide green channel"
+msgstr "單擊隱藏綠色通道"
+
+msgid "click to show green channel"
+msgstr "單擊顯示綠色通道"
+
+msgid "click to hide blue channel"
+msgstr "單擊隱藏藍色通道"
+
+msgid "click to show blue channel"
+msgstr "單擊顯示藍色通道"
+
+msgid ""
+"drag to change black point,\n"
+"doubleclick resets"
+msgstr ""
+"拖動以更改黑點\n"
+"雙擊重置"
+
+msgctxt "accel"
+msgid "create style from history"
+msgstr "從歷史中建立樣式"
+
+msgctxt "accel"
+msgid "apply style from popup menu"
+msgstr "從彈出窗口應用樣式"
+
+msgctxt "accel"
+msgid "compress history stack"
+msgstr "壓縮歷史紀錄棧"
+
+msgid "compress history stack"
+msgstr "壓縮歷史紀錄棧"
+
+msgid "create a minimal history stack which produces the same image"
+msgstr "建立最簡化的壓縮歷史紀錄棧產生同樣的圖片"
+
+msgid "create a style from the current history stack"
+msgstr "依賴當前壓縮歷史紀錄棧建立一個樣式"
+
+msgid "original"
+msgstr "原始"
+
+msgid "selected image[s]"
+msgstr "選中的圖片"
+
+msgid "remove"
+msgstr "移除"
+
+msgid "remove from the collection"
+msgstr "從集合中移除"
+
+msgid "physically delete from disk"
+msgstr "檔案刪除"
+
+msgid "move"
+msgstr "移動"
+
+msgid "move to other folder"
+msgstr "移到其它目錄"
+
+msgid "copy to other folder"
+msgstr "複製到其它目錄"
+
+msgid "create hdr"
+msgstr "建立HDR(高動態範圍成像)"
+
+msgid "create a high dynamic range image from selected shots"
+msgstr "從一系列選中的圖片製作 HDR 高動態範圍成像"
+
+msgid "duplicate"
+msgstr "複製"
+
+msgid "add a duplicate to the collection, including its history stack"
+msgstr "添加一個重複的集合, 包括它的歷史記錄棧"
+
+msgid "rotate selected images 90 degrees ccw"
+msgstr "逆時針 90度 轉動選中圖片"
+
+msgid "rotate selected images 90 degrees cw"
+msgstr "順時針 90度 轉動選中圖片"
+
+msgid "reset rotation"
+msgstr "重置旋轉"
+
+msgid "reset rotation to exif data"
+msgstr "將重置的旋轉訊息放入 exif"
+
+msgid "group"
+msgstr "分組"
+
+msgid "add selected images to expanded group or create a new one"
+msgstr "添加選中的影像至展開的分組或新建組"
+
+msgid "ungroup"
+msgstr "取消分組"
+
+msgid "remove selected images from the group"
+msgstr "移除分組中選中的圖片"
+
+msgctxt "accel"
+msgid "remove from collection"
+msgstr "從集合中移除"
+
+msgctxt "accel"
+msgid "delete from disk"
+msgstr "由磁碟中刪除"
+
+msgctxt "accel"
+msgid "rotate selected images 90 degrees cw"
+msgstr "順時針 90度 轉動選中圖片"
+
+msgctxt "accel"
+msgid "rotate selected images 90 degrees ccw"
+msgstr "逆時針 90度 轉動選中圖片"
+
+msgctxt "accel"
+msgid "create hdr"
+msgstr "製作 HDR (高動態範圍成像)"
+
+msgctxt "accel"
+msgid "duplicate"
+msgstr "複製"
+
+msgctxt "accel"
+msgid "reset rotation"
+msgstr "重置旋轉"
+
+msgctxt "accel"
+msgid "group"
+msgstr "分組"
+
+msgctxt "accel"
+msgid "ungroup"
+msgstr "取消分組"
+
+msgid "import"
+msgstr "匯入"
+
+msgctxt "accel"
+msgid "scan for devices"
+msgstr "搜尋設備"
+
+msgctxt "accel"
+msgid "import from camera"
+msgstr "從相機匯入"
+
+msgctxt "accel"
+msgid "tethered shoot"
+msgstr "連機拍攝"
+
+msgctxt "accel"
+msgid "import image"
+msgstr "匯入圖片"
+
+msgid "scan for devices"
+msgstr "搜尋設備"
+
+msgid "scan for newly attached devices"
+msgstr "搜尋剛插入的設備"
+
+msgid "device \"%s\" connected on port \"%s\"."
+msgstr "設備\"%s\" 連接到\"%s\" 連接埠."
+
+msgid "import from camera"
+msgstr "從相機中匯入"
+
+msgid "tethered shoot"
+msgstr "連機拍攝"
+
+msgid "no supported devices found"
+msgstr "沒有發現支援的設備"
+
+msgid "import options"
+msgstr "匯入選項"
+
+msgid "import directories recursively"
+msgstr "匯入分離"
+
+msgid ""
+"recursively import subdirectories. each directory goes into a new film roll."
+msgstr "遞歸匯入子目錄, 每個目錄將作為一個新的膠捲."
+
+msgid "apply metadata on import"
+msgstr "匯入時應用元數據(metadata)"
+
+msgid "apply some metadata to all newly imported images."
+msgstr "所有新匯入的影像應用元數據(metadata)."
+
+msgid "comma separated list of tags"
+msgstr "逗號分隔的標籤列表"
+
+msgid "import image"
+msgstr "匯入圖片"
+
+msgid "supported images"
+msgstr "支援的圖片"
+
+msgid "file has unknown format!"
+msgstr "檔案格式未知!"
+
+msgid "import film"
+msgstr "匯入影像"
+
+msgid "select one or more images to import"
+msgstr "選擇圖片匯入"
+
+msgid "folder"
+msgstr "目錄"
+
+msgid "select a folder to import as film roll"
+msgstr "選擇一個目錄作為影像膠卷匯入"
+
+msgid "keywords"
+msgstr "關鍵字"
+
+msgid "edit `%s'"
+msgstr "編輯`%s'"
+
+msgid "live view"
+msgstr "實時取景"
+
+msgctxt "accel"
+msgid "toggle live view"
+msgstr "切換即時取景"
+
+msgctxt "accel"
+msgid "flip horizontally"
+msgstr "水平翻轉"
+
+msgctxt "accel"
+msgid "move focus point in (big steps)"
+msgstr "移入焦點(大步級)"
+
+msgctxt "accel"
+msgid "move focus point in (small steps)"
+msgstr "移入焦點(小步級)"
+
+msgctxt "accel"
+msgid "move focus point out (small steps)"
+msgstr "移出焦點(小步級)"
+
+msgctxt "accel"
+msgid "move focus point out (big steps)"
+msgstr "移出焦點(大步級)"
+
+msgid "toggle live view"
+msgstr "切換實時取景"
+
+msgid "zoom live view"
+msgstr "變焦實時取景"
+
+msgid "flip live view horizontally"
+msgstr "水平翻轉實時取景"
+
+msgid "move focus point in (big steps)"
+msgstr "移入焦點(大步級)"
+
+msgid "move focus point in (small steps)"
+msgstr "移入焦點(小步級)"
+
+msgid "move focus point out (small steps)"
+msgstr "移出焦點(小步級)"
+
+msgid "move focus point out (big steps)"
+msgstr "移出焦點(大步級)"
+
+msgid "selected image"
+msgstr "選中的圖片"
+
+msgid "id"
+msgstr "id"
+
+msgid "overlay another image over the live view"
+msgstr "另一幅影像覆蓋實時取景"
+
+msgid "image id"
+msgstr "圖片 id"
+
+msgid "enter image id of the overlay manually"
+msgstr "手動輸入覆蓋的圖片id"
+
+msgid "overlay mode"
+msgstr "覆蓋模式"
+
+msgid "xor"
+msgstr "異或"
+
+msgid "add"
+msgstr "添加"
+
+msgid "saturate"
+msgstr "飽和度"
+
+msgid "color dodge"
+msgstr "顏色減淡"
+
+msgid "color burn"
+msgstr "顏色加深"
+
+msgid "hard light"
+msgstr "實光(hardlight)"
+
+msgid "soft light"
+msgstr "柔光(softlight)"
+
+msgid "exclusion"
+msgstr "排除"
+
+msgid "hsl hue"
+msgstr "hsl色調"
+
+msgid "hsl saturation"
+msgstr "HSL飽和度"
+
+msgid "hsl color"
+msgstr "HSL顏色"
+
+msgid "hsl luminosity"
+msgstr "hsl光度"
+
+msgid "mode of the overlay"
+msgstr "覆蓋模式"
+
+msgid "split line"
+msgstr "分割線"
+
+msgid "only draw part of the overlay"
+msgstr "只繪製覆蓋區域"
+
+msgid "find location"
+msgstr "尋找位置"
+
+msgid "map settings"
+msgstr "地圖設定"
+
+msgid "show osd"
+msgstr "顯示osd"
+
+msgid "toggle the visibility of the map overlays"
+msgstr "切換地圖覆蓋圖的能見度"
+
+msgid "map source"
+msgstr "地圖來源"
+
+msgid "select the source of the map. some entries might not work"
+msgstr "選擇地圖來源.有些表項可能無法正常工作"
+
+msgid "metadata editor"
+msgstr "編輯元數據(metadata)"
+
+msgid "<leave unchanged>"
+msgstr "<leave unchanged>"
+
+msgctxt "accel"
+msgid "clear"
+msgstr "清空"
+
+msgid "clear"
+msgstr "清空"
+
+msgid "remove metadata from selected images"
+msgstr "從選中的圖片移除元數據(metadata)"
+
+msgid "write metadata for selected images"
+msgstr "向選中的圖片寫入元數據(metadata)"
+
+msgid "CC-by"
+msgstr "CC-by"
+
+msgid "Creative Commons Attribution (CC-BY)"
+msgstr "姓名標示-相同方式分享 4.0 國際 (CC-BY)"
+
+msgid "CC-by-sa"
+msgstr "CC-by-sa"
+
+msgid "Creative Commons Attribution-ShareAlike (CC-BY-SA)"
+msgstr "姓名標示-相同方式分享 4.0 國際 (CC BY-SA 4.0)"
+
+msgid "CC-by-nd"
+msgstr "CC-by-nd"
+
+msgid "Creative Commons Attribution-NoDerivs (CC-BY-ND)"
+msgstr "姓名標示-禁止改作 4.0 國際 (CC BY-ND 4.0)"
+
+msgid "CC-by-nc"
+msgstr "CC-by-nc"
+
+msgid "Creative Commons Attribution-NonCommercial (CC-BY-NC)"
+msgstr "姓名標示-非商業性 4.0 國際 (CC BY-NC 4.0)"
+
+msgid "CC-by-nc-sa"
+msgstr "CC-by-nc-sa"
+
+msgid "Creative Commons Attribution-NonCommercial-ShareAlike (CC-BY-NC-SA)"
+msgstr "姓名標示-非商業性-相同方式分享 4.0 國際 (CC BY-NC-SA 4.0)"
+
+msgid "CC-by-nc-nd"
+msgstr "CC-by-nc-nd"
+
+msgid "Creative Commons Attribution-NonCommercial-NoDerivs (CC-BY-NC-ND)"
+msgstr "姓名標示-非商業性-禁止改作 4.0 國際 (CC BY-NC-ND 4.0)"
+
+msgid "all rights reserved"
+msgstr "保留所有權利"
+
+msgid "All rights reserved."
+msgstr "保留所有權利."
+
+msgid "filmroll"
+msgstr "膠捲"
+
+msgid "full path"
+msgstr "完整路徑"
+
+msgid "focus distance"
+msgstr "焦距"
+
+msgid "datetime"
+msgstr "拍攝日期"
+
+msgid "height"
+msgstr "高度"
+
+msgid "copyright"
+msgstr "版權"
+
+msgid "latitude"
+msgstr "緯度"
+
+msgid "longitude"
+msgstr "經度"
+
+msgid "image information"
+msgstr "圖片訊息"
+
+msgid "modulegroups"
+msgstr "模組集合"
+
+msgid "show modules explicit specified by user"
+msgstr "顯示"
+
+msgid "the modules used in active pipe"
+msgstr "當前活動流程種使用的模組"
+
+msgid "basic group"
+msgstr "基礎集合"
+
+msgid "correction group"
+msgstr "修正集合"
+
+msgid "color group"
+msgstr "色彩集合"
+
+msgid "tone group"
+msgstr "色調集合"
+
+msgid "effect group"
+msgstr "特效集合"
+
+msgid "more modules"
+msgstr "更多模組"
+
+msgid "navigation"
+msgstr "導航"
+
+msgid "small"
+msgstr "小"
+
+msgid "fit to screen"
+msgstr "適應螢幕"
+
+msgid "100%"
+msgstr "100%"
+
+msgid "200%"
+msgstr "200%"
+
+msgid "recently used collections"
+msgstr "最近用過的集合"
+
+msgid " and "
+msgstr " 以及 "
+
+msgid " or "
+msgstr " 或者 "
+
+msgid " but not "
+msgstr " 但非 "
+
+msgid "select"
+msgstr "選擇"
+
+msgid "select all"
+msgstr "選擇全部"
+
+msgid "select all images in current collection (ctrl-a)"
+msgstr "選擇當前集合中的全部圖片 (ctrl-a)"
+
+msgid "select none"
+msgstr "不選擇"
+
+msgid "clear selection (ctrl-shift-a)"
+msgstr "清空選擇"
+
+msgid "invert selection"
+msgstr "反轉選擇"
+
+msgid ""
+"select unselected images\n"
+"in current collection (ctrl-!)"
+msgstr "選擇當前集合中未選擇的圖片 (ctrl-!)"
+
+msgid "select film roll"
+msgstr "選擇膠捲"
+
+msgid ""
+"select all images which are in the same\n"
+"film roll as the selected images"
+msgstr ""
+"選擇同一膠卷中\n"
+"全部的圖片"
+
+msgid "select untouched"
+msgstr "選擇未變動的"
+
+msgid ""
+"select untouched images in\n"
+"current collection"
+msgstr ""
+"選擇當前集合中\n"
+"未變動的圖片"
+
+msgid "snapshots"
+msgstr "對照本"
+
+msgctxt "accel"
+msgid "take snapshot"
+msgstr "抓取截圖"
+
+msgid "take snapshot"
+msgstr "取樣對照"
+
+msgid ""
+"take snapshot to compare with another image or the same image at another "
+"stage of development"
+msgstr "取樣對照以便進一步開發"
+
+msgid "unknown"
+msgstr "未知"
+
+msgid "styles"
+msgstr "風格"
+
+msgctxt "accel"
+msgid "delete"
+msgstr "刪除"
+
+msgctxt "accel"
+msgid "import"
+msgstr "匯入"
+
+msgid "select style"
+msgstr "選擇風格"
+
+msgid "darktable style files"
+msgstr "darktable 樣式檔案"
+
+msgid ""
+"available styles,\n"
+"doubleclick to apply"
+msgstr ""
+"可用樣式, \n"
+"雙擊應用"
+
+msgid "enter style name"
+msgstr "輸入樣式名稱"
+
+msgid "create duplicate"
+msgstr "建立複製品"
+
+msgid "creates a duplicate of the image before applying style"
+msgstr "樣式應用前建立一個此圖片的複製品"
+
+msgid "create styles from history stack of selected images"
+msgstr "從選定影像的歷史堆疊新建樣式"
+
+msgid "edit"
+msgstr "編輯"
+
+msgid "edit the selected style in list above"
+msgstr "編輯上面的列表中選定的樣式"
+
+msgid "deletes the selected style in list above"
+msgstr "刪除上列選中的樣式"
+
+msgctxt "styles"
+msgid "import"
+msgstr "匯入"
+
+msgid "import style from a style file"
+msgstr "從樣式檔案匯入匯入樣式"
+
+msgid "export the selected style into a style file"
+msgstr "匯出樣式到一個樣式檔案"
+
+msgid "tagging"
+msgstr "+標籤"
+
+msgctxt "accel"
+msgid "attach"
+msgstr "附加"
+
+msgctxt "accel"
+msgid "detach"
+msgstr "分離"
+
+msgctxt "accel"
+msgid "new"
+msgstr "新"
+
+msgctxt "accel"
+msgid "tag"
+msgstr "標籤"
+
+msgid ""
+"do you really want to delete the tag `%s'?\n"
+"%d image is assigned this tag!"
+msgid_plural ""
+"do you really want to delete the tag `%s'?\n"
+"%d images are assigned this tag!"
+msgstr[0] ""
+"真的要刪除標籤`%s'?\n"
+"%d 張圖片正在使用此標籤!"
+
+msgid "delete tag?"
+msgstr "刪除標籤?"
+
+msgid ""
+"attached tags,\n"
+"doubleclick to detach"
+msgstr ""
+"附加標籤\n"
+"雙擊分離"
+
+msgid "attach"
+msgstr "附加"
+
+msgid "attach tag to all selected images"
+msgstr "給所有選中的圖片加上標籤"
+
+msgid "detach"
+msgstr "分離"
+
+msgid "detach tag from all selected images"
+msgstr "從所有選中的圖片去除標籤"
+
+msgid "enter tag name"
+msgstr "命名標籤"
+
+msgid ""
+"related tags,\n"
+"doubleclick to attach"
+msgstr ""
+"相關標籤\n"
+"雙擊附加"
+
+msgid "new"
+msgstr "新建標籤"
+
+msgid ""
+"create a new tag with the\n"
+"name you entered"
+msgstr ""
+"輸入名稱建立\n"
+"一個新的標籤"
+
+msgid "delete selected tag"
+msgstr "刪除選中的標籤"
+
+msgid "colorlabels"
+msgstr "色彩標識"
+
+msgid ""
+"toggle red label\n"
+"of selected images (f1)"
+msgstr ""
+"切換選中圖片(f1)\n"
+"的紅色貼標"
+
+msgid ""
+"toggle yellow label\n"
+"of selected images (f2)"
+msgstr ""
+"切換選中圖片(f2)\n"
+"的黃色貼標"
+
+msgid ""
+"toggle green label\n"
+"of selected images (f3)"
+msgstr ""
+"切換選中圖片(f3)\n"
+"的綠色貼標"
+
+msgid ""
+"toggle blue label\n"
+"of selected images (f4)"
+msgstr ""
+"切換選中圖片(f4)\n"
+"的藍色貼標"
+
+msgid ""
+"toggle purple label\n"
+"of selected images (f5)"
+msgstr ""
+"切換選中圖片(f5)\n"
+"的紫色貼標"
+
+msgid "clear all labels of selected images"
+msgstr "清除選中圖片的全部標識"
+
+msgid "darktable"
+msgstr "darktable"
+
+msgid "organize and develop images from digital cameras"
+msgstr "組織和開發數碼相機匯出的圖片"
+
+msgid "* developers *"
+msgstr "* 開發者 *"
+
+msgid "* ubuntu packaging, color management, video tutorials *"
+msgstr "* ubuntu打包, 色彩管理, 視頻教程 *"
+
+msgid "* opencl pipeline: *"
+msgstr "* opencl pipeline: *"
+
+msgid "* networking, battle testing, translation expert *"
+msgstr "* 網絡,  測試,  翻譯 *"
+
+msgid "* contributors *"
+msgstr "* 貢獻者 *"
+
+msgid "translator-credits"
+msgstr "翻譯貢獻者"
+
+msgid "filmstrip"
+msgstr "幻燈放映"
+
+msgctxt "accel"
+msgid "rate desert"
+msgstr "評為 優秀"
+
+msgctxt "accel"
+msgid "rate 1"
+msgstr "評為 1"
+
+msgctxt "accel"
+msgid "rate 2"
+msgstr "評為 2"
+
+msgctxt "accel"
+msgid "rate 3"
+msgstr "評為 3"
+
+msgctxt "accel"
+msgid "rate 4"
+msgstr "評為 4"
+
+msgctxt "accel"
+msgid "rate 5"
+msgstr "評為 5"
+
+msgctxt "accel"
+msgid "rate reject"
+msgstr "評為 不合格"
+
+msgctxt "accel"
+msgid "copy history"
+msgstr "複製歷史"
+
+msgctxt "accel"
+msgid "copy history parts"
+msgstr "複製歷史記錄部分"
+
+msgctxt "accel"
+msgid "paste history"
+msgstr "貼上歷史"
+
+msgctxt "accel"
+msgid "paste history parts"
+msgstr "貼上歷史記錄部件"
+
+msgctxt "accel"
+msgid "discard history"
+msgstr "放棄歷史紀錄"
+
+msgctxt "accel"
+msgid "duplicate image"
+msgstr "複製影像"
+
+msgctxt "accel"
+msgid "color red"
+msgstr "色 紅"
+
+msgctxt "accel"
+msgid "color yellow"
+msgstr "色 黃"
+
+msgctxt "accel"
+msgid "color green"
+msgstr "色 綠"
+
+msgctxt "accel"
+msgid "color blue"
+msgstr "色 藍"
+
+msgctxt "accel"
+msgid "color purple"
+msgstr "色 紫"
+
+msgctxt "accel"
+msgid "select all"
+msgstr "選擇全部"
+
+msgctxt "accel"
+msgid "select none"
+msgstr "不選擇"
+
+msgctxt "accel"
+msgid "invert selection"
+msgstr "反轉選擇"
+
+msgctxt "accel"
+msgid "select film roll"
+msgstr "選擇膠捲"
+
+msgctxt "accel"
+msgid "select untouched"
+msgstr "選擇未變動的"
+
+msgid "filter"
+msgstr "過濾"
+
+msgid "view"
+msgstr "視角"
+
+msgid "unstarred only"
+msgstr "僅取消星級"
+
+msgid "rejected only"
+msgstr "只拒絶"
+
+msgid "all except rejected"
+msgstr "所有, 除了拒絶的"
+
+msgid "sort by"
+msgstr "分類方式"
+
+msgid "preferences"
+msgstr "偏好"
+
+msgid "expand grouped images"
+msgstr "展開分組的影像"
+
+msgid "collapse grouped images"
+msgstr "摺疊分組的影像"
+
+msgid "show global preferences"
+msgstr "顯示全局偏好設定"
+
+msgctxt "accel"
+msgid "grouping"
+msgstr "分組"
+
+msgctxt "accel"
+msgid "preferences"
+msgstr "偏好"
+
+msgid "hinter"
+msgstr "意圖"
+
+msgid "lighttable"
+msgstr "光桌"
+
+msgid "zoomable light table"
+msgstr "可縮放的光台"
+
+msgctxt "accel"
+msgid "zoom max"
+msgstr "縮放最大"
+
+msgctxt "accel"
+msgid "zoom in"
+msgstr "視角拉近"
+
+msgctxt "accel"
+msgid "zoom out"
+msgstr "視角拉遠"
+
+msgctxt "accel"
+msgid "zoom min"
+msgstr "縮放最小"
+
+msgid "module toolbox"
+msgstr "模組工具箱"
+
+msgid "ratings"
+msgstr "評級"
+
+msgid "viewswitcher"
+msgstr "查看切換工具"
+
+msgid "view toolbox"
+msgstr "查看工具箱"
+
+msgid "tethering"
+msgstr "連機拍攝"
+
+msgid "failed to create session path %s."
+msgstr "無法建立session路徑 %s."
+
+msgid "new session initiated '%s'"
+msgstr "新的session啟動 '%s'"
+
+msgid "no camera with tethering support available for use..."
+msgstr "沒有相機支援連機拍攝..."
+
+msgctxt "accel"
+msgid "toggle film strip"
+msgstr "開關膠卷"
+
+msgid "darkroom"
+msgstr "暗房"
+
+msgid "no userdefined presets for favorite modules were found"
+msgstr "沒有發現使用者的預置喜好模組"
+
+msgid "applied style `%s' on current image"
+msgstr "在當前圖片使用 `%s' 樣式"
+
+msgid "no styles have been created yet"
+msgstr "還沒有建立樣式"
+
+msgid "quick access to presets of your favorites"
+msgstr "快速捷徑以設定你的喜好項目"
+
+msgid "quick access for applying any of your styles"
+msgstr "快速途經應用你的樣式"
+
+msgid ""
+"toggle over/under exposed indication\n"
+"right click for options"
+msgstr ""
+"切換曝光不足/過量的指示\n"
+"右鍵查看選項"
+
+msgid "color scheme"
+msgstr "配色方案"
+
+msgid "black & white"
+msgstr "黑白"
+
+msgid "red & blue"
+msgstr "紅藍"
+
+msgid "purple & green"
+msgstr "紫綠"
+
+msgid "select colors to indicate over/under exposure"
+msgstr "選擇顏色來表示曝光過度/不足"
+
+msgid "lower threshold"
+msgstr "降低閾值"
+
+msgid "threshold of what shall be considered underexposed"
+msgstr "應被作為曝光不足部分的閾值"
+
+msgid "upper threshold"
+msgstr "增加閾值"
+
+msgid "threshold of what shall be considered overexposed"
+msgstr "應被作為曝光過度部分的閾值"
+
+msgctxt "accel"
+msgid "zoom close-up"
+msgstr "縮放拉近"
+
+msgctxt "accel"
+msgid "zoom fill"
+msgstr "縮放填滿"
+
+msgctxt "accel"
+msgid "zoom fit"
+msgstr "縮放適應視窗"
+
+msgctxt "accel"
+msgid "image forward"
+msgstr "影像前捲"
+
+msgctxt "accel"
+msgid "image back"
+msgstr "影像後退"
+
+msgctxt "accel"
+msgid "overexposed"
+msgstr "曝光過度"
+
+msgid "there are no images in this collection"
+msgstr "當前集合中無影像"
+
+msgid "if you have not imported any images yet"
+msgstr "若您還沒有匯入任何影像"
+
+msgid "you can do so in the import module"
+msgstr "您可以在匯入模組做這些"
+
+msgid "try to relax the filter settings in the top panel"
+msgstr "使用頂部面板的過濾設置"
+
+msgid "or add images in the collection module in the left panel"
+msgstr "或者添加影像至左面板的集合模組"
+
+msgctxt "accel"
+msgid "navigate up"
+msgstr "向上移動"
+
+msgctxt "accel"
+msgid "navigate down"
+msgstr "向下移動"
+
+msgctxt "accel"
+msgid "navigate page up"
+msgstr "頁面向上"
+
+msgctxt "accel"
+msgid "navigate page down"
+msgstr "頁面向下"
+
+msgctxt "accel"
+msgid "scroll up"
+msgstr "向上滾動"
+
+msgctxt "accel"
+msgid "scroll down"
+msgstr "向下滾動"
+
+msgctxt "accel"
+msgid "scroll left"
+msgstr "向左滾動"
+
+msgctxt "accel"
+msgid "scroll right"
+msgstr "向右滾動"
+
+msgctxt "accel"
+msgid "scroll center"
+msgstr "觀察中心"
+
+msgctxt "accel"
+msgid "realign images to grid"
+msgstr "影像重新排列為網格"
+
+msgctxt "accel"
+msgid "preview"
+msgstr "預覽"
+
+msgid "map"
+msgstr "地圖"
+
+msgctxt "accel"
+msgid "undo"
+msgstr "撤銷"
+
+msgctxt "accel"
+msgid "redo"
+msgstr "重做"
+
+msgid "could not allocate buffer for blending"
+msgstr "無法為影像混合分配緩衝區"
+
+msgid "add existing shape"
+msgstr "添加已存在形狀"
+
+msgid "use same shapes as"
+msgstr "使用與...相同的形狀"
+
+msgid "shapes used"
+msgstr "已使用的形狀"
+
+msgid "mask manager"
+msgstr "遮罩管理器"
+
+msgid "delete this shape"
+msgstr "刪除此形狀"
+
+msgid "remove from group"
+msgstr "從組中移除"
+
+msgid "group the forms"
+msgstr "組合形狀"
+
+msgid "use inversed shape"
+msgstr "使用反轉的形狀"
+
+msgid "mode : union"
+msgstr "模式: 並集"
+
+msgid "mode : intersection"
+msgstr "模式: 交集"
+
+msgid "mode : difference"
+msgstr "模式: 差集"
+
+msgid "mode : exclusion"
+msgstr "模式: 排除"
+
+msgid "created shapes"
+msgstr "已建立形狀"
+
+msgid "lua options"
+msgstr "lua 選項"
