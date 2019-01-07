@@ -39,12 +39,54 @@ while(my $line = <$FILE>) {
 }
 close($FILE);
 
-foreach my $key (keys %hash) {
-    print "key: $key\n";
-    foreach my $value (@{$hash{$key}}) {
-        print "value: $value ";
-    }
-    print "\n";
-}
+#foreach my $key (keys %hash) {
+#    print "key: $key\n";
+#    foreach my $value (@{$hash{$key}}) {
+#        print "value: $value ";
+#    }
+#    print "\n";
+#}
 
 # insert to target
+$filename = "zh_TW-empty-noheader.po";
+open($FILE, '<:encoding(UTF-8)', $filename) or die "Cant open file $filename";
+
+$msg = '';
+while(my $line = <$FILE>) {
+	chomp($line);
+
+    if ($line =~ /^#/) {
+        print "$line\n";
+    } else {
+        if ($line =~ /^msgid/) { # msgid
+            print "$line\n";
+
+            $status = 'msgid';
+            $line =~ s/^msgid //;
+            $msg = lc($line);
+        } elsif ($line =~ /^msgstr/) { # replace with translated
+            print "msgstr ";
+            if ($hash{$msg}) {
+                foreach my $value (@{$hash{$msg}}) {
+                    print "$value\n";
+                }
+            } else {
+                print "\"\"\n";
+            }
+
+            $status = 'msgstr';
+        } elsif ($line =~ /^msgctxt/) {
+            $status = '';
+            print "$line\n";
+        } elsif (length($line)) {
+            if ($status eq 'msgid') {
+                print "$line\n";
+                $line =~ s/\"//g;
+                $msg = $msg . lc($line);
+            }
+        } else {
+            print "$line\n";
+        }
+    }
+}
+close($FILE);
